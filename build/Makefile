@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named pwm
+# Target rules for targets named keypad
 
 # Build rule for target.
-pwm: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pwm
-.PHONY : pwm
+keypad: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 keypad
+.PHONY : keypad
 
 # fast build rule for target.
-pwm/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pwm.dir\build.make CMakeFiles/pwm.dir/build
-.PHONY : pwm/fast
+keypad/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\keypad.dir\build.make CMakeFiles/keypad.dir/build
+.PHONY : keypad/fast
 
 #=============================================================================
 # Target rules for targets named kendryte
@@ -154,29 +154,29 @@ nncase/fast:
 	$(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/build
 .PHONY : nncase/fast
 
-src/pwm/main.obj: src/pwm/main.c.obj
-.PHONY : src/pwm/main.obj
+src/keypad/main.obj: src/keypad/main.c.obj
+.PHONY : src/keypad/main.obj
 
 # target to build an object file
-src/pwm/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pwm.dir\build.make CMakeFiles/pwm.dir/src/pwm/main.c.obj
-.PHONY : src/pwm/main.c.obj
+src/keypad/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\keypad.dir\build.make CMakeFiles/keypad.dir/src/keypad/main.c.obj
+.PHONY : src/keypad/main.c.obj
 
-src/pwm/main.i: src/pwm/main.c.i
-.PHONY : src/pwm/main.i
+src/keypad/main.i: src/keypad/main.c.i
+.PHONY : src/keypad/main.i
 
 # target to preprocess a source file
-src/pwm/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pwm.dir\build.make CMakeFiles/pwm.dir/src/pwm/main.c.i
-.PHONY : src/pwm/main.c.i
+src/keypad/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\keypad.dir\build.make CMakeFiles/keypad.dir/src/keypad/main.c.i
+.PHONY : src/keypad/main.c.i
 
-src/pwm/main.s: src/pwm/main.c.s
-.PHONY : src/pwm/main.s
+src/keypad/main.s: src/keypad/main.c.s
+.PHONY : src/keypad/main.s
 
 # target to generate assembly for a file
-src/pwm/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pwm.dir\build.make CMakeFiles/pwm.dir/src/pwm/main.c.s
-.PHONY : src/pwm/main.c.s
+src/keypad/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\keypad.dir\build.make CMakeFiles/keypad.dir/src/keypad/main.c.s
+.PHONY : src/keypad/main.c.s
 
 # Help Target
 help:
@@ -187,11 +187,11 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... kendryte
+	@echo ... keypad
 	@echo ... nncase
-	@echo ... pwm
-	@echo ... src/pwm/main.obj
-	@echo ... src/pwm/main.i
-	@echo ... src/pwm/main.s
+	@echo ... src/keypad/main.obj
+	@echo ... src/keypad/main.i
+	@echo ... src/keypad/main.s
 .PHONY : help
 
 

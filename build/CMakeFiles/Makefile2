@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = E:\K210\riscvLearnning\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/pwm.dir/all
+all: CMakeFiles/keypad.dir/all
 all: lib/all
 .PHONY : all
 
@@ -71,7 +71,7 @@ preinstall: lib/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/pwm.dir/clean
+clean: CMakeFiles/keypad.dir/clean
 clean: lib/clean
 .PHONY : clean
 
@@ -108,31 +108,31 @@ lib/nncase/clean: lib/nncase/CMakeFiles/nncase.dir/clean
 .PHONY : lib/nncase/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/pwm.dir
+# Target rules for target CMakeFiles/keypad.dir
 
 # All Build rule for target.
-CMakeFiles/pwm.dir/all: lib/CMakeFiles/kendryte.dir/all
-CMakeFiles/pwm.dir/all: lib/nncase/CMakeFiles/nncase.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pwm.dir\build.make CMakeFiles/pwm.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pwm.dir\build.make CMakeFiles/pwm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\K210\riscvLearnning\build\CMakeFiles --progress-num=42,43 "Built target pwm"
-.PHONY : CMakeFiles/pwm.dir/all
+CMakeFiles/keypad.dir/all: lib/CMakeFiles/kendryte.dir/all
+CMakeFiles/keypad.dir/all: lib/nncase/CMakeFiles/nncase.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\keypad.dir\build.make CMakeFiles/keypad.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\keypad.dir\build.make CMakeFiles/keypad.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\K210\riscvLearnning\build\CMakeFiles --progress-num=34,35 "Built target keypad"
+.PHONY : CMakeFiles/keypad.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/pwm.dir/rule: cmake_check_build_system
+CMakeFiles/keypad.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\K210\riscvLearnning\build\CMakeFiles 43
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/pwm.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/keypad.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\K210\riscvLearnning\build\CMakeFiles 0
-.PHONY : CMakeFiles/pwm.dir/rule
+.PHONY : CMakeFiles/keypad.dir/rule
 
 # Convenience name for target.
-pwm: CMakeFiles/pwm.dir/rule
-.PHONY : pwm
+keypad: CMakeFiles/keypad.dir/rule
+.PHONY : keypad
 
 # clean rule for target.
-CMakeFiles/pwm.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pwm.dir\build.make CMakeFiles/pwm.dir/clean
-.PHONY : CMakeFiles/pwm.dir/clean
+CMakeFiles/keypad.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\keypad.dir\build.make CMakeFiles/keypad.dir/clean
+.PHONY : CMakeFiles/keypad.dir/clean
 
 #=============================================================================
 # Target rules for target lib/CMakeFiles/kendryte.dir
@@ -167,7 +167,7 @@ lib/CMakeFiles/kendryte.dir/clean:
 lib/nncase/CMakeFiles/nncase.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\K210\riscvLearnning\build\CMakeFiles --progress-num=34,35,36,37,38,39,40,41 "Built target nncase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\K210\riscvLearnning\build\CMakeFiles --progress-num=36,37,38,39,40,41,42,43 "Built target nncase"
 .PHONY : lib/nncase/CMakeFiles/nncase.dir/all
 
 # Build rule for subdir invocation for target.
