@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named button
+# Target rules for targets named timer
 
 # Build rule for target.
-button: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 button
-.PHONY : button
+timer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 timer
+.PHONY : timer
 
 # fast build rule for target.
-button/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\button.dir\build.make CMakeFiles/button.dir/build
-.PHONY : button/fast
+timer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\timer.dir\build.make CMakeFiles/timer.dir/build
+.PHONY : timer/fast
 
 #=============================================================================
 # Target rules for targets named kendryte
@@ -154,29 +154,29 @@ nncase/fast:
 	$(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/build
 .PHONY : nncase/fast
 
-src/button/main.obj: src/button/main.c.obj
-.PHONY : src/button/main.obj
+src/timer/main.obj: src/timer/main.c.obj
+.PHONY : src/timer/main.obj
 
 # target to build an object file
-src/button/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\button.dir\build.make CMakeFiles/button.dir/src/button/main.c.obj
-.PHONY : src/button/main.c.obj
+src/timer/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\timer.dir\build.make CMakeFiles/timer.dir/src/timer/main.c.obj
+.PHONY : src/timer/main.c.obj
 
-src/button/main.i: src/button/main.c.i
-.PHONY : src/button/main.i
+src/timer/main.i: src/timer/main.c.i
+.PHONY : src/timer/main.i
 
 # target to preprocess a source file
-src/button/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\button.dir\build.make CMakeFiles/button.dir/src/button/main.c.i
-.PHONY : src/button/main.c.i
+src/timer/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\timer.dir\build.make CMakeFiles/timer.dir/src/timer/main.c.i
+.PHONY : src/timer/main.c.i
 
-src/button/main.s: src/button/main.c.s
-.PHONY : src/button/main.s
+src/timer/main.s: src/timer/main.c.s
+.PHONY : src/timer/main.s
 
 # target to generate assembly for a file
-src/button/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\button.dir\build.make CMakeFiles/button.dir/src/button/main.c.s
-.PHONY : src/button/main.c.s
+src/timer/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\timer.dir\build.make CMakeFiles/timer.dir/src/timer/main.c.s
+.PHONY : src/timer/main.c.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... button
 	@echo ... kendryte
 	@echo ... nncase
-	@echo ... src/button/main.obj
-	@echo ... src/button/main.i
-	@echo ... src/button/main.s
+	@echo ... timer
+	@echo ... src/timer/main.obj
+	@echo ... src/timer/main.i
+	@echo ... src/timer/main.s
 .PHONY : help
 
 

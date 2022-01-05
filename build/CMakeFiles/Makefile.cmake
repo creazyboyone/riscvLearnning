@@ -54,7 +54,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/button.dir/DependInfo.cmake"
+  "CMakeFiles/timer.dir/DependInfo.cmake"
   "lib/CMakeFiles/kendryte.dir/DependInfo.cmake"
   "lib/nncase/CMakeFiles/nncase.dir/DependInfo.cmake"
   )
