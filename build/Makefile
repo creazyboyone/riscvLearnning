@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named timer
+# Target rules for targets named pwm
 
 # Build rule for target.
-timer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 timer
-.PHONY : timer
+pwm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pwm
+.PHONY : pwm
 
 # fast build rule for target.
-timer/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\timer.dir\build.make CMakeFiles/timer.dir/build
-.PHONY : timer/fast
+pwm/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pwm.dir\build.make CMakeFiles/pwm.dir/build
+.PHONY : pwm/fast
 
 #=============================================================================
 # Target rules for targets named kendryte
@@ -154,29 +154,29 @@ nncase/fast:
 	$(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/build
 .PHONY : nncase/fast
 
-src/timer/main.obj: src/timer/main.c.obj
-.PHONY : src/timer/main.obj
+src/pwm/main.obj: src/pwm/main.c.obj
+.PHONY : src/pwm/main.obj
 
 # target to build an object file
-src/timer/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\timer.dir\build.make CMakeFiles/timer.dir/src/timer/main.c.obj
-.PHONY : src/timer/main.c.obj
+src/pwm/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pwm.dir\build.make CMakeFiles/pwm.dir/src/pwm/main.c.obj
+.PHONY : src/pwm/main.c.obj
 
-src/timer/main.i: src/timer/main.c.i
-.PHONY : src/timer/main.i
+src/pwm/main.i: src/pwm/main.c.i
+.PHONY : src/pwm/main.i
 
 # target to preprocess a source file
-src/timer/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\timer.dir\build.make CMakeFiles/timer.dir/src/timer/main.c.i
-.PHONY : src/timer/main.c.i
+src/pwm/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pwm.dir\build.make CMakeFiles/pwm.dir/src/pwm/main.c.i
+.PHONY : src/pwm/main.c.i
 
-src/timer/main.s: src/timer/main.c.s
-.PHONY : src/timer/main.s
+src/pwm/main.s: src/pwm/main.c.s
+.PHONY : src/pwm/main.s
 
 # target to generate assembly for a file
-src/timer/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\timer.dir\build.make CMakeFiles/timer.dir/src/timer/main.c.s
-.PHONY : src/timer/main.c.s
+src/pwm/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pwm.dir\build.make CMakeFiles/pwm.dir/src/pwm/main.c.s
+.PHONY : src/pwm/main.c.s
 
 # Help Target
 help:
@@ -188,10 +188,10 @@ help:
 	@echo ... rebuild_cache
 	@echo ... kendryte
 	@echo ... nncase
-	@echo ... timer
-	@echo ... src/timer/main.obj
-	@echo ... src/timer/main.i
-	@echo ... src/timer/main.s
+	@echo ... pwm
+	@echo ... src/pwm/main.obj
+	@echo ... src/pwm/main.i
+	@echo ... src/pwm/main.s
 .PHONY : help
 
 
