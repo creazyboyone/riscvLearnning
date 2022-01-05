@@ -178,7 +178,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=dual_core
+CMAKE_PROJECT_NAME:STATIC=button
 
 //NoDesc
 CMAKE_RANLIB:STRING=D:/kendryte-toolchain/bin/riscv64-unknown-elf-ranlib.exe
@@ -251,19 +251,28 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 LDFLAGS:STRING= -nostartfiles -static -Wl,--gc-sections -Wl,-static -Wl,--start-group -Wl,--whole-archive -Wl,--no-whole-archive -Wl,--end-group -Wl,-EL -Wl,--no-relax -T E:/K210/riscvLearnning/lds/kendryte.ld
 
 //No help, variable specified on the command line.
-PROJ:UNINITIALIZED=dual_core
+PROJ:UNINITIALIZED=button
 
 //NoDesc
 SDK_ROOT:STRING=E:/K210/riscvLearnning
 
 //Source Files
-SOURCE_FILES:STRING=E:/K210/riscvLearnning/src/dual_core/main.c
+SOURCE_FILES:STRING=E:/K210/riscvLearnning/src/button/main.c
 
 //NoDesc
 TOOLCHAIN:STRING=D:/kendryte-toolchain/bin
 
 //Path to a file.
 _TOOLCHAIN:PATH=D:/kendryte-toolchain/bin
+
+//Value Computed by CMake
+button_BINARY_DIR:STATIC=E:/K210/riscvLearnning/build
+
+//Value Computed by CMake
+button_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+button_SOURCE_DIR:STATIC=E:/K210/riscvLearnning
 
 //Value Computed by CMake
 dual_core_BINARY_DIR:STATIC=E:/K210/riscvLearnning/build

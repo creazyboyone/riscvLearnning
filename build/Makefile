@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named dual_core
+# Target rules for targets named button
 
 # Build rule for target.
-dual_core: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dual_core
-.PHONY : dual_core
+button: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 button
+.PHONY : button
 
 # fast build rule for target.
-dual_core/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dual_core.dir\build.make CMakeFiles/dual_core.dir/build
-.PHONY : dual_core/fast
+button/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\button.dir\build.make CMakeFiles/button.dir/build
+.PHONY : button/fast
 
 #=============================================================================
 # Target rules for targets named kendryte
@@ -154,29 +154,29 @@ nncase/fast:
 	$(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/build
 .PHONY : nncase/fast
 
-src/dual_core/main.obj: src/dual_core/main.c.obj
-.PHONY : src/dual_core/main.obj
+src/button/main.obj: src/button/main.c.obj
+.PHONY : src/button/main.obj
 
 # target to build an object file
-src/dual_core/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dual_core.dir\build.make CMakeFiles/dual_core.dir/src/dual_core/main.c.obj
-.PHONY : src/dual_core/main.c.obj
+src/button/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\button.dir\build.make CMakeFiles/button.dir/src/button/main.c.obj
+.PHONY : src/button/main.c.obj
 
-src/dual_core/main.i: src/dual_core/main.c.i
-.PHONY : src/dual_core/main.i
+src/button/main.i: src/button/main.c.i
+.PHONY : src/button/main.i
 
 # target to preprocess a source file
-src/dual_core/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dual_core.dir\build.make CMakeFiles/dual_core.dir/src/dual_core/main.c.i
-.PHONY : src/dual_core/main.c.i
+src/button/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\button.dir\build.make CMakeFiles/button.dir/src/button/main.c.i
+.PHONY : src/button/main.c.i
 
-src/dual_core/main.s: src/dual_core/main.c.s
-.PHONY : src/dual_core/main.s
+src/button/main.s: src/button/main.c.s
+.PHONY : src/button/main.s
 
 # target to generate assembly for a file
-src/dual_core/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dual_core.dir\build.make CMakeFiles/dual_core.dir/src/dual_core/main.c.s
-.PHONY : src/dual_core/main.c.s
+src/button/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\button.dir\build.make CMakeFiles/button.dir/src/button/main.c.s
+.PHONY : src/button/main.c.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... dual_core
+	@echo ... button
 	@echo ... kendryte
 	@echo ... nncase
-	@echo ... src/dual_core/main.obj
-	@echo ... src/dual_core/main.i
-	@echo ... src/dual_core/main.s
+	@echo ... src/button/main.obj
+	@echo ... src/button/main.i
+	@echo ... src/button/main.s
 .PHONY : help
 
 
