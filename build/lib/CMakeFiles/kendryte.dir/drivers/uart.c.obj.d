@@ -1,5 +1,5 @@
 lib/CMakeFiles/kendryte.dir/drivers/uart.c.obj: \
- E:\K210\SDK\lib\drivers\uart.c \
+ E:\K210\riscvLearnning\lib\drivers\uart.c \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\_default_types.h \
@@ -21,11 +21,11 @@ lib/CMakeFiles/kendryte.dir/drivers/uart.c.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\cdefs.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\stdlib.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\alloca.h \
- E:\K210\SDK\lib\bsp\include/atomic.h \
- E:\K210\SDK\lib\drivers\include/plic.h \
- E:\K210\SDK\lib\bsp\include/encoding.h \
- E:\K210\SDK\lib\bsp\include/platform.h \
- E:\K210\SDK\lib\bsp\include/syscalls.h \
+ E:\K210\riscvLearnning\lib\bsp\include/atomic.h \
+ E:\K210\riscvLearnning\lib\drivers\include/plic.h \
+ E:\K210\riscvLearnning\lib\bsp\include/encoding.h \
+ E:\K210\riscvLearnning\lib\bsp\include/platform.h \
+ E:\K210\riscvLearnning\lib\bsp\include/syscalls.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\syscall.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdio.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdarg.h \
@@ -45,11 +45,11 @@ lib/CMakeFiles/kendryte.dir/drivers/uart.c.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\xlocale.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\strings.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\string.h \
- E:\K210\SDK\lib\drivers\include/sysctl.h \
- E:\K210\SDK\lib\drivers\include/uart.h \
- E:\K210\SDK\lib\drivers\include/dmac.h \
- E:\K210\SDK\lib\drivers\include/io.h \
- E:\K210\SDK\lib\drivers\include/plic.h \
+ E:\K210\riscvLearnning\lib\drivers\include/sysctl.h \
+ E:\K210\riscvLearnning\lib\drivers\include/uart.h \
+ E:\K210\riscvLearnning\lib\drivers\include/dmac.h \
+ E:\K210\riscvLearnning\lib\drivers\include/io.h \
+ E:\K210\riscvLearnning\lib\drivers\include/plic.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdbool.h \
- E:\K210\SDK\lib\drivers\include/utils.h \
- E:\K210\SDK\lib\drivers\include/iomem.h
+ E:\K210\riscvLearnning\lib\drivers\include/utils.h \
+ E:\K210\riscvLearnning\lib\drivers\include/iomem.h

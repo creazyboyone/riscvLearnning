@@ -1,5 +1,5 @@
 lib/CMakeFiles/kendryte.dir/drivers/wdt.c.obj: \
- E:\K210\SDK\lib\drivers\wdt.c \
+ E:\K210\riscvLearnning\lib\drivers\wdt.c \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\math.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\reent.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\_ansi.h \
@@ -16,15 +16,15 @@ lib/CMakeFiles/kendryte.dir/drivers/wdt.c.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\cdefs.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\_ansi.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\fastmath.h \
- E:\K210\SDK\lib\bsp\include/platform.h \
- E:\K210\SDK\lib\drivers\include/plic.h \
+ E:\K210\riscvLearnning\lib\bsp\include/platform.h \
+ E:\K210\riscvLearnning\lib\drivers\include/plic.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\_intsup.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\_stdint.h \
- E:\K210\SDK\lib\bsp\include/encoding.h \
- E:\K210\SDK\lib\drivers\include/sysctl.h \
- E:\K210\SDK\lib\drivers\include/utils.h \
+ E:\K210\riscvLearnning\lib\bsp\include/encoding.h \
+ E:\K210\riscvLearnning\lib\drivers\include/sysctl.h \
+ E:\K210\riscvLearnning\lib\drivers\include/utils.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdbool.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdio.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdarg.h \
@@ -40,4 +40,4 @@ lib/CMakeFiles/kendryte.dir/drivers/wdt.c.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\sched.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\types.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\stdio.h \
- E:\K210\SDK\lib\drivers\include/wdt.h
+ E:\K210\riscvLearnning\lib\drivers\include/wdt.h

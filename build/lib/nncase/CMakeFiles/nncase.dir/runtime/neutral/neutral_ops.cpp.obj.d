@@ -1,7 +1,7 @@
 lib/nncase/CMakeFiles/nncase.dir/runtime/neutral/neutral_ops.cpp.obj: \
- E:\K210\SDK\lib\nncase\runtime\neutral\neutral_ops.cpp \
- E:\K210\SDK\lib\nncase\include/kernels/neutral/neutral_kernels.h \
- e:\k210\sdk\lib\nncase\include\kernels\kernel_utils.h \
+ E:\K210\riscvLearnning\lib\nncase\runtime\neutral\neutral_ops.cpp \
+ E:\K210\riscvLearnning\lib\nncase\include/kernels/neutral/neutral_kernels.h \
+ e:\k210\riscvlearnning\lib\nncase\include\kernels\kernel_utils.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\algorithm \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\utility \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\riscv64-unknown-elf\bits\c++config.h \
@@ -66,8 +66,8 @@ lib/nncase/CMakeFiles/nncase.dir/runtime/neutral/neutral_ops.cpp.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\cassert \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\assert.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\cstddef \
- E:\K210\SDK\lib\nncase\include/datatypes.h \
- E:\K210\SDK\lib\nncase\include/target_config.h \
+ E:\K210\riscvLearnning\lib\nncase\include/datatypes.h \
+ E:\K210\riscvLearnning\lib\nncase\include/target_config.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\stdexcept \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\string \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\bits\stringfwd.h \
@@ -150,8 +150,8 @@ lib/nncase/CMakeFiles/nncase.dir/runtime/neutral/neutral_ops.cpp.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\tr1\riemann_zeta.tcc \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\optional \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\bits\enable_special_members.h \
- E:\K210\SDK\lib\nncase\include/runtime/nnil.h \
- E:\K210\SDK\lib\nncase\include/runtime/binary_writer.h \
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/nnil.h \
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/binary_writer.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\iostream \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\ostream \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\ios \
@@ -174,31 +174,31 @@ lib/nncase/CMakeFiles/nncase.dir/runtime/neutral/neutral_ops.cpp.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\bits\ostream.tcc \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\istream \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\bits\istream.tcc \
- E:\K210\SDK\third_party\xtl\include/xtl/xspan.hpp \
- E:\K210\SDK\third_party\xtl\include/xtl/xspan_impl.hpp \
- E:\K210\SDK\lib\nncase\include/runtime/span_reader.h \
+ E:\K210\riscvLearnning\third_party\xtl\include/xtl/xspan.hpp \
+ E:\K210\riscvLearnning\third_party\xtl\include/xtl/xspan_impl.hpp \
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/span_reader.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\cstring \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\string.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\strings.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\string.h \
- E:\K210\SDK\lib\nncase\include/runtime/runtime_op_utility.h \
- e:\k210\sdk\lib\nncase\include\kernels\riscv\neutral_kernels.h \
- E:\K210\SDK\lib\nncase\include/runtime/kernel_registry.h \
- E:\K210\SDK\lib\nncase\include/runtime/target_interpreter.h \
- E:\K210\SDK\lib\nncase\include/runtime/k210/interpreter.h \
- E:\K210\SDK\lib\nncase\include/runtime/k210/k210_sim_types.h \
- E:\K210\SDK\lib\drivers\include/kpu.h \
- E:\K210\SDK\lib\drivers\include/plic.h \
- E:\K210\SDK\lib\bsp\include/encoding.h \
- E:\K210\SDK\lib\bsp\include/platform.h \
- E:\K210\SDK\lib\drivers\include/dmac.h \
- E:\K210\SDK\lib\drivers\include/io.h \
- E:\K210\SDK\lib\drivers\include/plic.h \
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/runtime_op_utility.h \
+ e:\k210\riscvlearnning\lib\nncase\include\kernels\riscv\neutral_kernels.h \
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/kernel_registry.h \
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/target_interpreter.h \
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/k210/interpreter.h \
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/k210/k210_sim_types.h \
+ E:\K210\riscvLearnning\lib\drivers\include/kpu.h \
+ E:\K210\riscvLearnning\lib\drivers\include/plic.h \
+ E:\K210\riscvLearnning\lib\bsp\include/encoding.h \
+ E:\K210\riscvLearnning\lib\bsp\include/platform.h \
+ E:\K210\riscvLearnning\lib\drivers\include/dmac.h \
+ E:\K210\riscvLearnning\lib\drivers\include/io.h \
+ E:\K210\riscvLearnning\lib\drivers\include/plic.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdbool.h \
- E:\K210\SDK\lib\nncase\include/runtime/interpreter.h \
- E:\K210\SDK\lib\nncase\include/runtime/model.h \
- E:\K210\SDK\lib\nncase\include/runtime/runtime_op.h \
- E:\K210\SDK\lib\nncase\include/runtime/runtime_op.def \
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/interpreter.h \
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/model.h \
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/runtime_op.h \
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/runtime_op.def \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\chrono \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\ratio \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\ctime \
@@ -220,5 +220,5 @@ lib/nncase/CMakeFiles/nncase.dir/runtime/neutral/neutral_ops.cpp.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\bits\atomic_base.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\bits\atomic_lockfree_defines.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\backward\auto_ptr.h \
- E:\K210\SDK\lib\nncase\include/runtime/neutral/neutral_ops_body.h \
- e:\k210\sdk\lib\nncase\include\runtime\node_body.h
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/neutral/neutral_ops_body.h \
+ e:\k210\riscvlearnning\lib\nncase\include\runtime\node_body.h

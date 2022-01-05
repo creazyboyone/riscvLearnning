@@ -1,9 +1,10 @@
 lib/CMakeFiles/kendryte.dir/drivers/i2c.c.obj: \
- E:\K210\SDK\lib\drivers\i2c.c \
+ E:\K210\riscvLearnning\lib\drivers\i2c.c \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stddef.h \
- E:\K210\SDK\lib\bsp\include/bsp.h E:\K210\SDK\lib\bsp\include/atomic.h \
- E:\K210\SDK\lib\bsp\include/encoding.h \
- E:\K210\SDK\lib\bsp\include/entry.h \
+ E:\K210\riscvLearnning\lib\bsp\include/bsp.h \
+ E:\K210\riscvLearnning\lib\bsp\include/atomic.h \
+ E:\K210\riscvLearnning\lib\bsp\include/encoding.h \
+ E:\K210\riscvLearnning\lib\bsp\include/entry.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdlib.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\ieeefp.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\_ansi.h \
@@ -24,16 +25,16 @@ lib/CMakeFiles/kendryte.dir/drivers/i2c.c.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\xlocale.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\strings.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\string.h \
- E:\K210\SDK\lib\bsp\include/printf.h \
+ E:\K210\riscvLearnning\lib\bsp\include/printf.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdarg.h \
- E:\K210\SDK\lib\bsp\include/sleep.h \
- E:\K210\SDK\lib\drivers\include/clint.h \
+ E:\K210\riscvLearnning\lib\bsp\include/sleep.h \
+ E:\K210\riscvLearnning\lib\drivers\include/clint.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\_intsup.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\_stdint.h \
- E:\K210\SDK\lib\bsp\include/platform.h \
- E:\K210\SDK\lib\bsp\include/syscalls.h \
+ E:\K210\riscvLearnning\lib\bsp\include/platform.h \
+ E:\K210\riscvLearnning\lib\bsp\include/syscalls.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\syscall.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdio.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\types.h \
@@ -48,13 +49,13 @@ lib/CMakeFiles/kendryte.dir/drivers/i2c.c.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\sched.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\types.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\stdio.h \
- E:\K210\SDK\lib\drivers\include/fpioa.h \
- E:\K210\SDK\lib\drivers\include/i2c.h \
- E:\K210\SDK\lib\drivers\include/dmac.h \
- E:\K210\SDK\lib\drivers\include/io.h \
- E:\K210\SDK\lib\drivers\include/plic.h \
- E:\K210\SDK\lib\bsp\include/encoding.h \
+ E:\K210\riscvLearnning\lib\drivers\include/fpioa.h \
+ E:\K210\riscvLearnning\lib\drivers\include/i2c.h \
+ E:\K210\riscvLearnning\lib\drivers\include/dmac.h \
+ E:\K210\riscvLearnning\lib\drivers\include/io.h \
+ E:\K210\riscvLearnning\lib\drivers\include/plic.h \
+ E:\K210\riscvLearnning\lib\bsp\include/encoding.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdbool.h \
- E:\K210\SDK\lib\drivers\include/sysctl.h \
- E:\K210\SDK\lib\drivers\include/utils.h \
- E:\K210\SDK\lib\drivers\include/iomem.h
+ E:\K210\riscvLearnning\lib\drivers\include/sysctl.h \
+ E:\K210\riscvLearnning\lib\drivers\include/utils.h \
+ E:\K210\riscvLearnning\lib\drivers\include/iomem.h

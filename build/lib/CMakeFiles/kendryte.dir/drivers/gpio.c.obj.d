@@ -1,5 +1,6 @@
 lib/CMakeFiles/kendryte.dir/drivers/gpio.c.obj: \
- E:\K210\SDK\lib\drivers\gpio.c E:\K210\SDK\lib\drivers\include/fpioa.h \
+ E:\K210\riscvLearnning\lib\drivers\gpio.c \
+ E:\K210\riscvLearnning\lib\drivers\include/fpioa.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\_default_types.h \
@@ -7,8 +8,8 @@ lib/CMakeFiles/kendryte.dir/drivers/gpio.c.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\_newlib_version.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\_intsup.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\_stdint.h \
- E:\K210\SDK\lib\bsp\include/platform.h \
- E:\K210\SDK\lib\drivers\include/gpio.h \
+ E:\K210\riscvLearnning\lib\bsp\include/platform.h \
+ E:\K210\riscvLearnning\lib\drivers\include/gpio.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\inttypes.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\newlib.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\config.h \
@@ -16,9 +17,9 @@ lib/CMakeFiles/kendryte.dir/drivers/gpio.c.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\_ansi.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stddef.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\xlocale.h \
- E:\K210\SDK\lib\drivers\include/gpio_common.h \
- E:\K210\SDK\lib\drivers\include/sysctl.h \
- E:\K210\SDK\lib\drivers\include/utils.h \
+ E:\K210\riscvLearnning\lib\drivers\include/gpio_common.h \
+ E:\K210\riscvLearnning\lib\drivers\include/sysctl.h \
+ E:\K210\riscvLearnning\lib\drivers\include/utils.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdbool.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdio.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\cdefs.h \

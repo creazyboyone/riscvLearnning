@@ -1,5 +1,5 @@
 lib/CMakeFiles/kendryte.dir/drivers/iomem.c.obj: \
- E:\K210\SDK\lib\drivers\iomem.c \
+ E:\K210\riscvLearnning\lib\drivers\iomem.c \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stddef.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdint.h \
@@ -35,6 +35,6 @@ lib/CMakeFiles/kendryte.dir/drivers/iomem.c.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdlib.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\stdlib.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\alloca.h \
- E:\K210\SDK\lib\drivers\include/iomem.h \
- E:\K210\SDK\lib\bsp\include/printf.h \
- E:\K210\SDK\lib\bsp\include/atomic.h
+ E:\K210\riscvLearnning\lib\drivers\include/iomem.h \
+ E:\K210\riscvLearnning\lib\bsp\include/printf.h \
+ E:\K210\riscvLearnning\lib\bsp\include/atomic.h

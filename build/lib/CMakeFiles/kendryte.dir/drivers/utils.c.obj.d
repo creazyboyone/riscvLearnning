@@ -1,8 +1,8 @@
 lib/CMakeFiles/kendryte.dir/drivers/utils.c.obj: \
- E:\K210\SDK\lib\drivers\utils.c \
+ E:\K210\riscvLearnning\lib\drivers\utils.c \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stddef.h \
- E:\K210\SDK\lib\bsp\include/encoding.h \
- E:\K210\SDK\lib\drivers\include/utils.h \
+ E:\K210\riscvLearnning\lib\bsp\include/encoding.h \
+ E:\K210\riscvLearnning\lib\drivers\include/utils.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdbool.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdint.h \

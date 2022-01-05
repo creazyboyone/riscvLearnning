@@ -56,10 +56,10 @@ RM = D:\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\K210\SDK
+CMAKE_SOURCE_DIR = E:\K210\riscvLearnning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\K210\SDK\build
+CMAKE_BINARY_DIR = E:\K210\riscvLearnning\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\K210\SDK\build && $(CMAKE_COMMAND) -E cmake_progress_start E:\K210\SDK\build\CMakeFiles E:\K210\SDK\build\lib\\CMakeFiles\progress.marks
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\K210\SDK\build\CMakeFiles 0
+	cd /d E:\K210\riscvLearnning\build && $(CMAKE_COMMAND) -E cmake_progress_start E:\K210\riscvLearnning\build\CMakeFiles E:\K210\riscvLearnning\build\lib\\CMakeFiles\progress.marks
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\K210\riscvLearnning\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/clean
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/preinstall
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/preinstall
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\K210\SDK\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d E:\K210\riscvLearnning\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/kendryte.dir/rule:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/CMakeFiles/kendryte.dir/rule
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/CMakeFiles/kendryte.dir/rule
 .PHONY : lib/CMakeFiles/kendryte.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ kendryte: lib/CMakeFiles/kendryte.dir/rule
 
 # fast build rule for target.
 kendryte/fast:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/build
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/build
 .PHONY : kendryte/fast
 
 bsp/crt.obj: bsp/crt.S.obj
@@ -134,7 +134,7 @@ bsp/crt.obj: bsp/crt.S.obj
 
 # target to build an object file
 bsp/crt.S.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/crt.S.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/crt.S.obj
 .PHONY : bsp/crt.S.obj
 
 bsp/crt.i: bsp/crt.S.i
@@ -142,7 +142,7 @@ bsp/crt.i: bsp/crt.S.i
 
 # target to preprocess a source file
 bsp/crt.S.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/crt.S.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/crt.S.i
 .PHONY : bsp/crt.S.i
 
 bsp/crt.s: bsp/crt.S.s
@@ -150,7 +150,7 @@ bsp/crt.s: bsp/crt.S.s
 
 # target to generate assembly for a file
 bsp/crt.S.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/crt.S.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/crt.S.s
 .PHONY : bsp/crt.S.s
 
 bsp/entry.obj: bsp/entry.c.obj
@@ -158,7 +158,7 @@ bsp/entry.obj: bsp/entry.c.obj
 
 # target to build an object file
 bsp/entry.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/entry.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/entry.c.obj
 .PHONY : bsp/entry.c.obj
 
 bsp/entry.i: bsp/entry.c.i
@@ -166,7 +166,7 @@ bsp/entry.i: bsp/entry.c.i
 
 # target to preprocess a source file
 bsp/entry.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/entry.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/entry.c.i
 .PHONY : bsp/entry.c.i
 
 bsp/entry.s: bsp/entry.c.s
@@ -174,7 +174,7 @@ bsp/entry.s: bsp/entry.c.s
 
 # target to generate assembly for a file
 bsp/entry.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/entry.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/entry.c.s
 .PHONY : bsp/entry.c.s
 
 bsp/entry_user.obj: bsp/entry_user.c.obj
@@ -182,7 +182,7 @@ bsp/entry_user.obj: bsp/entry_user.c.obj
 
 # target to build an object file
 bsp/entry_user.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/entry_user.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/entry_user.c.obj
 .PHONY : bsp/entry_user.c.obj
 
 bsp/entry_user.i: bsp/entry_user.c.i
@@ -190,7 +190,7 @@ bsp/entry_user.i: bsp/entry_user.c.i
 
 # target to preprocess a source file
 bsp/entry_user.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/entry_user.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/entry_user.c.i
 .PHONY : bsp/entry_user.c.i
 
 bsp/entry_user.s: bsp/entry_user.c.s
@@ -198,7 +198,7 @@ bsp/entry_user.s: bsp/entry_user.c.s
 
 # target to generate assembly for a file
 bsp/entry_user.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/entry_user.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/entry_user.c.s
 .PHONY : bsp/entry_user.c.s
 
 bsp/interrupt.obj: bsp/interrupt.c.obj
@@ -206,7 +206,7 @@ bsp/interrupt.obj: bsp/interrupt.c.obj
 
 # target to build an object file
 bsp/interrupt.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/interrupt.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/interrupt.c.obj
 .PHONY : bsp/interrupt.c.obj
 
 bsp/interrupt.i: bsp/interrupt.c.i
@@ -214,7 +214,7 @@ bsp/interrupt.i: bsp/interrupt.c.i
 
 # target to preprocess a source file
 bsp/interrupt.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/interrupt.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/interrupt.c.i
 .PHONY : bsp/interrupt.c.i
 
 bsp/interrupt.s: bsp/interrupt.c.s
@@ -222,7 +222,7 @@ bsp/interrupt.s: bsp/interrupt.c.s
 
 # target to generate assembly for a file
 bsp/interrupt.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/interrupt.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/interrupt.c.s
 .PHONY : bsp/interrupt.c.s
 
 bsp/locks.obj: bsp/locks.c.obj
@@ -230,7 +230,7 @@ bsp/locks.obj: bsp/locks.c.obj
 
 # target to build an object file
 bsp/locks.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/locks.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/locks.c.obj
 .PHONY : bsp/locks.c.obj
 
 bsp/locks.i: bsp/locks.c.i
@@ -238,7 +238,7 @@ bsp/locks.i: bsp/locks.c.i
 
 # target to preprocess a source file
 bsp/locks.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/locks.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/locks.c.i
 .PHONY : bsp/locks.c.i
 
 bsp/locks.s: bsp/locks.c.s
@@ -246,7 +246,7 @@ bsp/locks.s: bsp/locks.c.s
 
 # target to generate assembly for a file
 bsp/locks.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/locks.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/locks.c.s
 .PHONY : bsp/locks.c.s
 
 bsp/printf.obj: bsp/printf.c.obj
@@ -254,7 +254,7 @@ bsp/printf.obj: bsp/printf.c.obj
 
 # target to build an object file
 bsp/printf.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/printf.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/printf.c.obj
 .PHONY : bsp/printf.c.obj
 
 bsp/printf.i: bsp/printf.c.i
@@ -262,7 +262,7 @@ bsp/printf.i: bsp/printf.c.i
 
 # target to preprocess a source file
 bsp/printf.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/printf.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/printf.c.i
 .PHONY : bsp/printf.c.i
 
 bsp/printf.s: bsp/printf.c.s
@@ -270,7 +270,7 @@ bsp/printf.s: bsp/printf.c.s
 
 # target to generate assembly for a file
 bsp/printf.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/printf.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/printf.c.s
 .PHONY : bsp/printf.c.s
 
 bsp/sleep.obj: bsp/sleep.c.obj
@@ -278,7 +278,7 @@ bsp/sleep.obj: bsp/sleep.c.obj
 
 # target to build an object file
 bsp/sleep.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/sleep.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/sleep.c.obj
 .PHONY : bsp/sleep.c.obj
 
 bsp/sleep.i: bsp/sleep.c.i
@@ -286,7 +286,7 @@ bsp/sleep.i: bsp/sleep.c.i
 
 # target to preprocess a source file
 bsp/sleep.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/sleep.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/sleep.c.i
 .PHONY : bsp/sleep.c.i
 
 bsp/sleep.s: bsp/sleep.c.s
@@ -294,7 +294,7 @@ bsp/sleep.s: bsp/sleep.c.s
 
 # target to generate assembly for a file
 bsp/sleep.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/sleep.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/sleep.c.s
 .PHONY : bsp/sleep.c.s
 
 bsp/syscalls.obj: bsp/syscalls.c.obj
@@ -302,7 +302,7 @@ bsp/syscalls.obj: bsp/syscalls.c.obj
 
 # target to build an object file
 bsp/syscalls.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/syscalls.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/syscalls.c.obj
 .PHONY : bsp/syscalls.c.obj
 
 bsp/syscalls.i: bsp/syscalls.c.i
@@ -310,7 +310,7 @@ bsp/syscalls.i: bsp/syscalls.c.i
 
 # target to preprocess a source file
 bsp/syscalls.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/syscalls.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/syscalls.c.i
 .PHONY : bsp/syscalls.c.i
 
 bsp/syscalls.s: bsp/syscalls.c.s
@@ -318,7 +318,7 @@ bsp/syscalls.s: bsp/syscalls.c.s
 
 # target to generate assembly for a file
 bsp/syscalls.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/syscalls.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/bsp/syscalls.c.s
 .PHONY : bsp/syscalls.c.s
 
 drivers/aes.obj: drivers/aes.c.obj
@@ -326,7 +326,7 @@ drivers/aes.obj: drivers/aes.c.obj
 
 # target to build an object file
 drivers/aes.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/aes.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/aes.c.obj
 .PHONY : drivers/aes.c.obj
 
 drivers/aes.i: drivers/aes.c.i
@@ -334,7 +334,7 @@ drivers/aes.i: drivers/aes.c.i
 
 # target to preprocess a source file
 drivers/aes.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/aes.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/aes.c.i
 .PHONY : drivers/aes.c.i
 
 drivers/aes.s: drivers/aes.c.s
@@ -342,7 +342,7 @@ drivers/aes.s: drivers/aes.c.s
 
 # target to generate assembly for a file
 drivers/aes.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/aes.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/aes.c.s
 .PHONY : drivers/aes.c.s
 
 drivers/apu.obj: drivers/apu.c.obj
@@ -350,7 +350,7 @@ drivers/apu.obj: drivers/apu.c.obj
 
 # target to build an object file
 drivers/apu.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/apu.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/apu.c.obj
 .PHONY : drivers/apu.c.obj
 
 drivers/apu.i: drivers/apu.c.i
@@ -358,7 +358,7 @@ drivers/apu.i: drivers/apu.c.i
 
 # target to preprocess a source file
 drivers/apu.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/apu.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/apu.c.i
 .PHONY : drivers/apu.c.i
 
 drivers/apu.s: drivers/apu.c.s
@@ -366,7 +366,7 @@ drivers/apu.s: drivers/apu.c.s
 
 # target to generate assembly for a file
 drivers/apu.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/apu.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/apu.c.s
 .PHONY : drivers/apu.c.s
 
 drivers/clint.obj: drivers/clint.c.obj
@@ -374,7 +374,7 @@ drivers/clint.obj: drivers/clint.c.obj
 
 # target to build an object file
 drivers/clint.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/clint.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/clint.c.obj
 .PHONY : drivers/clint.c.obj
 
 drivers/clint.i: drivers/clint.c.i
@@ -382,7 +382,7 @@ drivers/clint.i: drivers/clint.c.i
 
 # target to preprocess a source file
 drivers/clint.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/clint.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/clint.c.i
 .PHONY : drivers/clint.c.i
 
 drivers/clint.s: drivers/clint.c.s
@@ -390,7 +390,7 @@ drivers/clint.s: drivers/clint.c.s
 
 # target to generate assembly for a file
 drivers/clint.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/clint.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/clint.c.s
 .PHONY : drivers/clint.c.s
 
 drivers/dmac.obj: drivers/dmac.c.obj
@@ -398,7 +398,7 @@ drivers/dmac.obj: drivers/dmac.c.obj
 
 # target to build an object file
 drivers/dmac.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/dmac.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/dmac.c.obj
 .PHONY : drivers/dmac.c.obj
 
 drivers/dmac.i: drivers/dmac.c.i
@@ -406,7 +406,7 @@ drivers/dmac.i: drivers/dmac.c.i
 
 # target to preprocess a source file
 drivers/dmac.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/dmac.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/dmac.c.i
 .PHONY : drivers/dmac.c.i
 
 drivers/dmac.s: drivers/dmac.c.s
@@ -414,7 +414,7 @@ drivers/dmac.s: drivers/dmac.c.s
 
 # target to generate assembly for a file
 drivers/dmac.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/dmac.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/dmac.c.s
 .PHONY : drivers/dmac.c.s
 
 drivers/dvp.obj: drivers/dvp.c.obj
@@ -422,7 +422,7 @@ drivers/dvp.obj: drivers/dvp.c.obj
 
 # target to build an object file
 drivers/dvp.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/dvp.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/dvp.c.obj
 .PHONY : drivers/dvp.c.obj
 
 drivers/dvp.i: drivers/dvp.c.i
@@ -430,7 +430,7 @@ drivers/dvp.i: drivers/dvp.c.i
 
 # target to preprocess a source file
 drivers/dvp.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/dvp.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/dvp.c.i
 .PHONY : drivers/dvp.c.i
 
 drivers/dvp.s: drivers/dvp.c.s
@@ -438,7 +438,7 @@ drivers/dvp.s: drivers/dvp.c.s
 
 # target to generate assembly for a file
 drivers/dvp.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/dvp.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/dvp.c.s
 .PHONY : drivers/dvp.c.s
 
 drivers/fft.obj: drivers/fft.c.obj
@@ -446,7 +446,7 @@ drivers/fft.obj: drivers/fft.c.obj
 
 # target to build an object file
 drivers/fft.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/fft.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/fft.c.obj
 .PHONY : drivers/fft.c.obj
 
 drivers/fft.i: drivers/fft.c.i
@@ -454,7 +454,7 @@ drivers/fft.i: drivers/fft.c.i
 
 # target to preprocess a source file
 drivers/fft.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/fft.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/fft.c.i
 .PHONY : drivers/fft.c.i
 
 drivers/fft.s: drivers/fft.c.s
@@ -462,7 +462,7 @@ drivers/fft.s: drivers/fft.c.s
 
 # target to generate assembly for a file
 drivers/fft.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/fft.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/fft.c.s
 .PHONY : drivers/fft.c.s
 
 drivers/fpioa.obj: drivers/fpioa.c.obj
@@ -470,7 +470,7 @@ drivers/fpioa.obj: drivers/fpioa.c.obj
 
 # target to build an object file
 drivers/fpioa.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/fpioa.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/fpioa.c.obj
 .PHONY : drivers/fpioa.c.obj
 
 drivers/fpioa.i: drivers/fpioa.c.i
@@ -478,7 +478,7 @@ drivers/fpioa.i: drivers/fpioa.c.i
 
 # target to preprocess a source file
 drivers/fpioa.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/fpioa.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/fpioa.c.i
 .PHONY : drivers/fpioa.c.i
 
 drivers/fpioa.s: drivers/fpioa.c.s
@@ -486,7 +486,7 @@ drivers/fpioa.s: drivers/fpioa.c.s
 
 # target to generate assembly for a file
 drivers/fpioa.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/fpioa.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/fpioa.c.s
 .PHONY : drivers/fpioa.c.s
 
 drivers/gpio.obj: drivers/gpio.c.obj
@@ -494,7 +494,7 @@ drivers/gpio.obj: drivers/gpio.c.obj
 
 # target to build an object file
 drivers/gpio.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/gpio.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/gpio.c.obj
 .PHONY : drivers/gpio.c.obj
 
 drivers/gpio.i: drivers/gpio.c.i
@@ -502,7 +502,7 @@ drivers/gpio.i: drivers/gpio.c.i
 
 # target to preprocess a source file
 drivers/gpio.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/gpio.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/gpio.c.i
 .PHONY : drivers/gpio.c.i
 
 drivers/gpio.s: drivers/gpio.c.s
@@ -510,7 +510,7 @@ drivers/gpio.s: drivers/gpio.c.s
 
 # target to generate assembly for a file
 drivers/gpio.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/gpio.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/gpio.c.s
 .PHONY : drivers/gpio.c.s
 
 drivers/gpiohs.obj: drivers/gpiohs.c.obj
@@ -518,7 +518,7 @@ drivers/gpiohs.obj: drivers/gpiohs.c.obj
 
 # target to build an object file
 drivers/gpiohs.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/gpiohs.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/gpiohs.c.obj
 .PHONY : drivers/gpiohs.c.obj
 
 drivers/gpiohs.i: drivers/gpiohs.c.i
@@ -526,7 +526,7 @@ drivers/gpiohs.i: drivers/gpiohs.c.i
 
 # target to preprocess a source file
 drivers/gpiohs.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/gpiohs.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/gpiohs.c.i
 .PHONY : drivers/gpiohs.c.i
 
 drivers/gpiohs.s: drivers/gpiohs.c.s
@@ -534,7 +534,7 @@ drivers/gpiohs.s: drivers/gpiohs.c.s
 
 # target to generate assembly for a file
 drivers/gpiohs.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/gpiohs.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/gpiohs.c.s
 .PHONY : drivers/gpiohs.c.s
 
 drivers/i2c.obj: drivers/i2c.c.obj
@@ -542,7 +542,7 @@ drivers/i2c.obj: drivers/i2c.c.obj
 
 # target to build an object file
 drivers/i2c.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/i2c.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/i2c.c.obj
 .PHONY : drivers/i2c.c.obj
 
 drivers/i2c.i: drivers/i2c.c.i
@@ -550,7 +550,7 @@ drivers/i2c.i: drivers/i2c.c.i
 
 # target to preprocess a source file
 drivers/i2c.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/i2c.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/i2c.c.i
 .PHONY : drivers/i2c.c.i
 
 drivers/i2c.s: drivers/i2c.c.s
@@ -558,7 +558,7 @@ drivers/i2c.s: drivers/i2c.c.s
 
 # target to generate assembly for a file
 drivers/i2c.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/i2c.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/i2c.c.s
 .PHONY : drivers/i2c.c.s
 
 drivers/i2s.obj: drivers/i2s.c.obj
@@ -566,7 +566,7 @@ drivers/i2s.obj: drivers/i2s.c.obj
 
 # target to build an object file
 drivers/i2s.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/i2s.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/i2s.c.obj
 .PHONY : drivers/i2s.c.obj
 
 drivers/i2s.i: drivers/i2s.c.i
@@ -574,7 +574,7 @@ drivers/i2s.i: drivers/i2s.c.i
 
 # target to preprocess a source file
 drivers/i2s.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/i2s.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/i2s.c.i
 .PHONY : drivers/i2s.c.i
 
 drivers/i2s.s: drivers/i2s.c.s
@@ -582,7 +582,7 @@ drivers/i2s.s: drivers/i2s.c.s
 
 # target to generate assembly for a file
 drivers/i2s.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/i2s.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/i2s.c.s
 .PHONY : drivers/i2s.c.s
 
 drivers/iomem.obj: drivers/iomem.c.obj
@@ -590,7 +590,7 @@ drivers/iomem.obj: drivers/iomem.c.obj
 
 # target to build an object file
 drivers/iomem.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/iomem.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/iomem.c.obj
 .PHONY : drivers/iomem.c.obj
 
 drivers/iomem.i: drivers/iomem.c.i
@@ -598,7 +598,7 @@ drivers/iomem.i: drivers/iomem.c.i
 
 # target to preprocess a source file
 drivers/iomem.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/iomem.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/iomem.c.i
 .PHONY : drivers/iomem.c.i
 
 drivers/iomem.s: drivers/iomem.c.s
@@ -606,7 +606,7 @@ drivers/iomem.s: drivers/iomem.c.s
 
 # target to generate assembly for a file
 drivers/iomem.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/iomem.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/iomem.c.s
 .PHONY : drivers/iomem.c.s
 
 drivers/kpu.obj: drivers/kpu.c.obj
@@ -614,7 +614,7 @@ drivers/kpu.obj: drivers/kpu.c.obj
 
 # target to build an object file
 drivers/kpu.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj
 .PHONY : drivers/kpu.c.obj
 
 drivers/kpu.i: drivers/kpu.c.i
@@ -622,7 +622,7 @@ drivers/kpu.i: drivers/kpu.c.i
 
 # target to preprocess a source file
 drivers/kpu.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/kpu.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/kpu.c.i
 .PHONY : drivers/kpu.c.i
 
 drivers/kpu.s: drivers/kpu.c.s
@@ -630,7 +630,7 @@ drivers/kpu.s: drivers/kpu.c.s
 
 # target to generate assembly for a file
 drivers/kpu.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/kpu.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/kpu.c.s
 .PHONY : drivers/kpu.c.s
 
 drivers/plic.obj: drivers/plic.c.obj
@@ -638,7 +638,7 @@ drivers/plic.obj: drivers/plic.c.obj
 
 # target to build an object file
 drivers/plic.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/plic.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/plic.c.obj
 .PHONY : drivers/plic.c.obj
 
 drivers/plic.i: drivers/plic.c.i
@@ -646,7 +646,7 @@ drivers/plic.i: drivers/plic.c.i
 
 # target to preprocess a source file
 drivers/plic.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/plic.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/plic.c.i
 .PHONY : drivers/plic.c.i
 
 drivers/plic.s: drivers/plic.c.s
@@ -654,7 +654,7 @@ drivers/plic.s: drivers/plic.c.s
 
 # target to generate assembly for a file
 drivers/plic.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/plic.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/plic.c.s
 .PHONY : drivers/plic.c.s
 
 drivers/pwm.obj: drivers/pwm.c.obj
@@ -662,7 +662,7 @@ drivers/pwm.obj: drivers/pwm.c.obj
 
 # target to build an object file
 drivers/pwm.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/pwm.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/pwm.c.obj
 .PHONY : drivers/pwm.c.obj
 
 drivers/pwm.i: drivers/pwm.c.i
@@ -670,7 +670,7 @@ drivers/pwm.i: drivers/pwm.c.i
 
 # target to preprocess a source file
 drivers/pwm.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/pwm.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/pwm.c.i
 .PHONY : drivers/pwm.c.i
 
 drivers/pwm.s: drivers/pwm.c.s
@@ -678,7 +678,7 @@ drivers/pwm.s: drivers/pwm.c.s
 
 # target to generate assembly for a file
 drivers/pwm.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/pwm.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/pwm.c.s
 .PHONY : drivers/pwm.c.s
 
 drivers/rtc.obj: drivers/rtc.c.obj
@@ -686,7 +686,7 @@ drivers/rtc.obj: drivers/rtc.c.obj
 
 # target to build an object file
 drivers/rtc.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/rtc.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/rtc.c.obj
 .PHONY : drivers/rtc.c.obj
 
 drivers/rtc.i: drivers/rtc.c.i
@@ -694,7 +694,7 @@ drivers/rtc.i: drivers/rtc.c.i
 
 # target to preprocess a source file
 drivers/rtc.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/rtc.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/rtc.c.i
 .PHONY : drivers/rtc.c.i
 
 drivers/rtc.s: drivers/rtc.c.s
@@ -702,7 +702,7 @@ drivers/rtc.s: drivers/rtc.c.s
 
 # target to generate assembly for a file
 drivers/rtc.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/rtc.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/rtc.c.s
 .PHONY : drivers/rtc.c.s
 
 drivers/sha256.obj: drivers/sha256.c.obj
@@ -710,7 +710,7 @@ drivers/sha256.obj: drivers/sha256.c.obj
 
 # target to build an object file
 drivers/sha256.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/sha256.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/sha256.c.obj
 .PHONY : drivers/sha256.c.obj
 
 drivers/sha256.i: drivers/sha256.c.i
@@ -718,7 +718,7 @@ drivers/sha256.i: drivers/sha256.c.i
 
 # target to preprocess a source file
 drivers/sha256.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/sha256.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/sha256.c.i
 .PHONY : drivers/sha256.c.i
 
 drivers/sha256.s: drivers/sha256.c.s
@@ -726,7 +726,7 @@ drivers/sha256.s: drivers/sha256.c.s
 
 # target to generate assembly for a file
 drivers/sha256.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/sha256.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/sha256.c.s
 .PHONY : drivers/sha256.c.s
 
 drivers/spi.obj: drivers/spi.c.obj
@@ -734,7 +734,7 @@ drivers/spi.obj: drivers/spi.c.obj
 
 # target to build an object file
 drivers/spi.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/spi.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/spi.c.obj
 .PHONY : drivers/spi.c.obj
 
 drivers/spi.i: drivers/spi.c.i
@@ -742,7 +742,7 @@ drivers/spi.i: drivers/spi.c.i
 
 # target to preprocess a source file
 drivers/spi.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/spi.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/spi.c.i
 .PHONY : drivers/spi.c.i
 
 drivers/spi.s: drivers/spi.c.s
@@ -750,7 +750,7 @@ drivers/spi.s: drivers/spi.c.s
 
 # target to generate assembly for a file
 drivers/spi.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/spi.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/spi.c.s
 .PHONY : drivers/spi.c.s
 
 drivers/sysctl.obj: drivers/sysctl.c.obj
@@ -758,7 +758,7 @@ drivers/sysctl.obj: drivers/sysctl.c.obj
 
 # target to build an object file
 drivers/sysctl.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/sysctl.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/sysctl.c.obj
 .PHONY : drivers/sysctl.c.obj
 
 drivers/sysctl.i: drivers/sysctl.c.i
@@ -766,7 +766,7 @@ drivers/sysctl.i: drivers/sysctl.c.i
 
 # target to preprocess a source file
 drivers/sysctl.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/sysctl.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/sysctl.c.i
 .PHONY : drivers/sysctl.c.i
 
 drivers/sysctl.s: drivers/sysctl.c.s
@@ -774,7 +774,7 @@ drivers/sysctl.s: drivers/sysctl.c.s
 
 # target to generate assembly for a file
 drivers/sysctl.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/sysctl.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/sysctl.c.s
 .PHONY : drivers/sysctl.c.s
 
 drivers/timer.obj: drivers/timer.c.obj
@@ -782,7 +782,7 @@ drivers/timer.obj: drivers/timer.c.obj
 
 # target to build an object file
 drivers/timer.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/timer.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/timer.c.obj
 .PHONY : drivers/timer.c.obj
 
 drivers/timer.i: drivers/timer.c.i
@@ -790,7 +790,7 @@ drivers/timer.i: drivers/timer.c.i
 
 # target to preprocess a source file
 drivers/timer.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/timer.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/timer.c.i
 .PHONY : drivers/timer.c.i
 
 drivers/timer.s: drivers/timer.c.s
@@ -798,7 +798,7 @@ drivers/timer.s: drivers/timer.c.s
 
 # target to generate assembly for a file
 drivers/timer.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/timer.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/timer.c.s
 .PHONY : drivers/timer.c.s
 
 drivers/uart.obj: drivers/uart.c.obj
@@ -806,7 +806,7 @@ drivers/uart.obj: drivers/uart.c.obj
 
 # target to build an object file
 drivers/uart.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/uart.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/uart.c.obj
 .PHONY : drivers/uart.c.obj
 
 drivers/uart.i: drivers/uart.c.i
@@ -814,7 +814,7 @@ drivers/uart.i: drivers/uart.c.i
 
 # target to preprocess a source file
 drivers/uart.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/uart.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/uart.c.i
 .PHONY : drivers/uart.c.i
 
 drivers/uart.s: drivers/uart.c.s
@@ -822,7 +822,7 @@ drivers/uart.s: drivers/uart.c.s
 
 # target to generate assembly for a file
 drivers/uart.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/uart.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/uart.c.s
 .PHONY : drivers/uart.c.s
 
 drivers/uarths.obj: drivers/uarths.c.obj
@@ -830,7 +830,7 @@ drivers/uarths.obj: drivers/uarths.c.obj
 
 # target to build an object file
 drivers/uarths.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/uarths.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/uarths.c.obj
 .PHONY : drivers/uarths.c.obj
 
 drivers/uarths.i: drivers/uarths.c.i
@@ -838,7 +838,7 @@ drivers/uarths.i: drivers/uarths.c.i
 
 # target to preprocess a source file
 drivers/uarths.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/uarths.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/uarths.c.i
 .PHONY : drivers/uarths.c.i
 
 drivers/uarths.s: drivers/uarths.c.s
@@ -846,7 +846,7 @@ drivers/uarths.s: drivers/uarths.c.s
 
 # target to generate assembly for a file
 drivers/uarths.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/uarths.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/uarths.c.s
 .PHONY : drivers/uarths.c.s
 
 drivers/utils.obj: drivers/utils.c.obj
@@ -854,7 +854,7 @@ drivers/utils.obj: drivers/utils.c.obj
 
 # target to build an object file
 drivers/utils.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/utils.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/utils.c.obj
 .PHONY : drivers/utils.c.obj
 
 drivers/utils.i: drivers/utils.c.i
@@ -862,7 +862,7 @@ drivers/utils.i: drivers/utils.c.i
 
 # target to preprocess a source file
 drivers/utils.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/utils.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/utils.c.i
 .PHONY : drivers/utils.c.i
 
 drivers/utils.s: drivers/utils.c.s
@@ -870,7 +870,7 @@ drivers/utils.s: drivers/utils.c.s
 
 # target to generate assembly for a file
 drivers/utils.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/utils.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/utils.c.s
 .PHONY : drivers/utils.c.s
 
 drivers/wdt.obj: drivers/wdt.c.obj
@@ -878,7 +878,7 @@ drivers/wdt.obj: drivers/wdt.c.obj
 
 # target to build an object file
 drivers/wdt.c.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/wdt.c.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/wdt.c.obj
 .PHONY : drivers/wdt.c.obj
 
 drivers/wdt.i: drivers/wdt.c.i
@@ -886,7 +886,7 @@ drivers/wdt.i: drivers/wdt.c.i
 
 # target to preprocess a source file
 drivers/wdt.c.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/wdt.c.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/wdt.c.i
 .PHONY : drivers/wdt.c.i
 
 drivers/wdt.s: drivers/wdt.c.s
@@ -894,7 +894,7 @@ drivers/wdt.s: drivers/wdt.c.s
 
 # target to generate assembly for a file
 drivers/wdt.c.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/wdt.c.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\kendryte.dir\build.make lib/CMakeFiles/kendryte.dir/drivers/wdt.c.s
 .PHONY : drivers/wdt.c.s
 
 # Help Target
@@ -1013,6 +1013,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\K210\SDK\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d E:\K210\riscvLearnning\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

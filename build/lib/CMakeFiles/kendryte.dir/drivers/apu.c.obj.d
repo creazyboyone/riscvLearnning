@@ -1,5 +1,5 @@
 lib/CMakeFiles/kendryte.dir/drivers/apu.c.obj: \
- E:\K210\SDK\lib\drivers\apu.c \
+ E:\K210\riscvLearnning\lib\drivers\apu.c \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\math.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\reent.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\_ansi.h \
@@ -20,8 +20,8 @@ lib/CMakeFiles/kendryte.dir/drivers/apu.c.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\_intsup.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\_stdint.h \
- E:\K210\SDK\lib\drivers\include/apu.h \
- E:\K210\SDK\lib\bsp\include/syscalls.h \
+ E:\K210\riscvLearnning\lib\drivers\include/apu.h \
+ E:\K210\riscvLearnning\lib\bsp\include/syscalls.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\syscall.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdio.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdarg.h \
@@ -41,5 +41,5 @@ lib/CMakeFiles/kendryte.dir/drivers/apu.c.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\xlocale.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\strings.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\string.h \
- E:\K210\SDK\lib\drivers\include/sysctl.h \
- E:\K210\SDK\lib\bsp\include/platform.h
+ E:\K210\riscvLearnning\lib\drivers\include/sysctl.h \
+ E:\K210\riscvLearnning\lib\bsp\include/platform.h

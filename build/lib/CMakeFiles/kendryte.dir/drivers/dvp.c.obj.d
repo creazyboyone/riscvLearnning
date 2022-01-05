@@ -1,5 +1,5 @@
 lib/CMakeFiles/kendryte.dir/drivers/dvp.c.obj: \
- E:\K210\SDK\lib\drivers\dvp.c \
+ E:\K210\riscvLearnning\lib\drivers\dvp.c \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\math.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\reent.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\_ansi.h \
@@ -20,11 +20,11 @@ lib/CMakeFiles/kendryte.dir/drivers/dvp.c.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\_intsup.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\_stdint.h \
- E:\K210\SDK\lib\drivers\include/dvp.h \
- E:\K210\SDK\lib\drivers\include/fpioa.h \
- E:\K210\SDK\lib\bsp\include/platform.h \
- E:\K210\SDK\lib\drivers\include/sysctl.h \
- E:\K210\SDK\lib\drivers\include/utils.h \
+ E:\K210\riscvLearnning\lib\drivers\include/dvp.h \
+ E:\K210\riscvLearnning\lib\drivers\include/fpioa.h \
+ E:\K210\riscvLearnning\lib\bsp\include/platform.h \
+ E:\K210\riscvLearnning\lib\drivers\include/sysctl.h \
+ E:\K210\riscvLearnning\lib\drivers\include/utils.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdbool.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdio.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdarg.h \

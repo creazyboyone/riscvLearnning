@@ -1,5 +1,6 @@
-lib/CMakeFiles/kendryte.dir/bsp/entry.c.obj: E:\K210\SDK\lib\bsp\entry.c \
- E:\K210\SDK\lib\bsp\include/entry.h \
+lib/CMakeFiles/kendryte.dir/bsp/entry.c.obj: \
+ E:\K210\riscvLearnning\lib\bsp\entry.c \
+ E:\K210\riscvLearnning\lib\bsp\include/entry.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdlib.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\ieeefp.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\_ansi.h \

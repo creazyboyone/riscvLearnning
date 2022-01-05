@@ -56,10 +56,10 @@ RM = D:\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\K210\SDK
+CMAKE_SOURCE_DIR = E:\K210\riscvLearnning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\K210\SDK\build
+CMAKE_BINARY_DIR = E:\K210\riscvLearnning\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\K210\SDK\build && $(CMAKE_COMMAND) -E cmake_progress_start E:\K210\SDK\build\CMakeFiles E:\K210\SDK\build\lib\nncase\\CMakeFiles\progress.marks
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/nncase/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\K210\SDK\build\CMakeFiles 0
+	cd /d E:\K210\riscvLearnning\build && $(CMAKE_COMMAND) -E cmake_progress_start E:\K210\riscvLearnning\build\CMakeFiles E:\K210\riscvLearnning\build\lib\nncase\\CMakeFiles\progress.marks
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/nncase/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\K210\riscvLearnning\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/nncase/clean
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/nncase/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/nncase/preinstall
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/nncase/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/nncase/preinstall
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/nncase/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\K210\SDK\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d E:\K210\riscvLearnning\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/nncase/CMakeFiles/nncase.dir/rule:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/nncase/CMakeFiles/nncase.dir/rule
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/nncase/CMakeFiles/nncase.dir/rule
 .PHONY : lib/nncase/CMakeFiles/nncase.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ nncase: lib/nncase/CMakeFiles/nncase.dir/rule
 
 # fast build rule for target.
 nncase/fast:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/build
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/build
 .PHONY : nncase/fast
 
 nncase.obj: nncase.cpp.obj
@@ -134,7 +134,7 @@ nncase.obj: nncase.cpp.obj
 
 # target to build an object file
 nncase.cpp.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/nncase.cpp.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/nncase.cpp.obj
 .PHONY : nncase.cpp.obj
 
 nncase.i: nncase.cpp.i
@@ -142,7 +142,7 @@ nncase.i: nncase.cpp.i
 
 # target to preprocess a source file
 nncase.cpp.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/nncase.cpp.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/nncase.cpp.i
 .PHONY : nncase.cpp.i
 
 nncase.s: nncase.cpp.s
@@ -150,7 +150,7 @@ nncase.s: nncase.cpp.s
 
 # target to generate assembly for a file
 nncase.cpp.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/nncase.cpp.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/nncase.cpp.s
 .PHONY : nncase.cpp.s
 
 runtime/cpu/cpu_ops.obj: runtime/cpu/cpu_ops.cpp.obj
@@ -158,7 +158,7 @@ runtime/cpu/cpu_ops.obj: runtime/cpu/cpu_ops.cpp.obj
 
 # target to build an object file
 runtime/cpu/cpu_ops.cpp.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/cpu/cpu_ops.cpp.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/cpu/cpu_ops.cpp.obj
 .PHONY : runtime/cpu/cpu_ops.cpp.obj
 
 runtime/cpu/cpu_ops.i: runtime/cpu/cpu_ops.cpp.i
@@ -166,7 +166,7 @@ runtime/cpu/cpu_ops.i: runtime/cpu/cpu_ops.cpp.i
 
 # target to preprocess a source file
 runtime/cpu/cpu_ops.cpp.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/cpu/cpu_ops.cpp.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/cpu/cpu_ops.cpp.i
 .PHONY : runtime/cpu/cpu_ops.cpp.i
 
 runtime/cpu/cpu_ops.s: runtime/cpu/cpu_ops.cpp.s
@@ -174,7 +174,7 @@ runtime/cpu/cpu_ops.s: runtime/cpu/cpu_ops.cpp.s
 
 # target to generate assembly for a file
 runtime/cpu/cpu_ops.cpp.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/cpu/cpu_ops.cpp.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/cpu/cpu_ops.cpp.s
 .PHONY : runtime/cpu/cpu_ops.cpp.s
 
 runtime/interpreter.obj: runtime/interpreter.cpp.obj
@@ -182,7 +182,7 @@ runtime/interpreter.obj: runtime/interpreter.cpp.obj
 
 # target to build an object file
 runtime/interpreter.cpp.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/interpreter.cpp.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/interpreter.cpp.obj
 .PHONY : runtime/interpreter.cpp.obj
 
 runtime/interpreter.i: runtime/interpreter.cpp.i
@@ -190,7 +190,7 @@ runtime/interpreter.i: runtime/interpreter.cpp.i
 
 # target to preprocess a source file
 runtime/interpreter.cpp.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/interpreter.cpp.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/interpreter.cpp.i
 .PHONY : runtime/interpreter.cpp.i
 
 runtime/interpreter.s: runtime/interpreter.cpp.s
@@ -198,7 +198,7 @@ runtime/interpreter.s: runtime/interpreter.cpp.s
 
 # target to generate assembly for a file
 runtime/interpreter.cpp.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/interpreter.cpp.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/interpreter.cpp.s
 .PHONY : runtime/interpreter.cpp.s
 
 runtime/k210/interpreter.obj: runtime/k210/interpreter.cpp.obj
@@ -206,7 +206,7 @@ runtime/k210/interpreter.obj: runtime/k210/interpreter.cpp.obj
 
 # target to build an object file
 runtime/k210/interpreter.cpp.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/k210/interpreter.cpp.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/k210/interpreter.cpp.obj
 .PHONY : runtime/k210/interpreter.cpp.obj
 
 runtime/k210/interpreter.i: runtime/k210/interpreter.cpp.i
@@ -214,7 +214,7 @@ runtime/k210/interpreter.i: runtime/k210/interpreter.cpp.i
 
 # target to preprocess a source file
 runtime/k210/interpreter.cpp.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/k210/interpreter.cpp.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/k210/interpreter.cpp.i
 .PHONY : runtime/k210/interpreter.cpp.i
 
 runtime/k210/interpreter.s: runtime/k210/interpreter.cpp.s
@@ -222,7 +222,7 @@ runtime/k210/interpreter.s: runtime/k210/interpreter.cpp.s
 
 # target to generate assembly for a file
 runtime/k210/interpreter.cpp.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/k210/interpreter.cpp.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/k210/interpreter.cpp.s
 .PHONY : runtime/k210/interpreter.cpp.s
 
 runtime/k210/k210_ops.obj: runtime/k210/k210_ops.cpp.obj
@@ -230,7 +230,7 @@ runtime/k210/k210_ops.obj: runtime/k210/k210_ops.cpp.obj
 
 # target to build an object file
 runtime/k210/k210_ops.cpp.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/k210/k210_ops.cpp.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/k210/k210_ops.cpp.obj
 .PHONY : runtime/k210/k210_ops.cpp.obj
 
 runtime/k210/k210_ops.i: runtime/k210/k210_ops.cpp.i
@@ -238,7 +238,7 @@ runtime/k210/k210_ops.i: runtime/k210/k210_ops.cpp.i
 
 # target to preprocess a source file
 runtime/k210/k210_ops.cpp.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/k210/k210_ops.cpp.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/k210/k210_ops.cpp.i
 .PHONY : runtime/k210/k210_ops.cpp.i
 
 runtime/k210/k210_ops.s: runtime/k210/k210_ops.cpp.s
@@ -246,7 +246,7 @@ runtime/k210/k210_ops.s: runtime/k210/k210_ops.cpp.s
 
 # target to generate assembly for a file
 runtime/k210/k210_ops.cpp.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/k210/k210_ops.cpp.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/k210/k210_ops.cpp.s
 .PHONY : runtime/k210/k210_ops.cpp.s
 
 runtime/kernel_registry.obj: runtime/kernel_registry.cpp.obj
@@ -254,7 +254,7 @@ runtime/kernel_registry.obj: runtime/kernel_registry.cpp.obj
 
 # target to build an object file
 runtime/kernel_registry.cpp.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/kernel_registry.cpp.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/kernel_registry.cpp.obj
 .PHONY : runtime/kernel_registry.cpp.obj
 
 runtime/kernel_registry.i: runtime/kernel_registry.cpp.i
@@ -262,7 +262,7 @@ runtime/kernel_registry.i: runtime/kernel_registry.cpp.i
 
 # target to preprocess a source file
 runtime/kernel_registry.cpp.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/kernel_registry.cpp.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/kernel_registry.cpp.i
 .PHONY : runtime/kernel_registry.cpp.i
 
 runtime/kernel_registry.s: runtime/kernel_registry.cpp.s
@@ -270,7 +270,7 @@ runtime/kernel_registry.s: runtime/kernel_registry.cpp.s
 
 # target to generate assembly for a file
 runtime/kernel_registry.cpp.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/kernel_registry.cpp.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/kernel_registry.cpp.s
 .PHONY : runtime/kernel_registry.cpp.s
 
 runtime/neutral/neutral_ops.obj: runtime/neutral/neutral_ops.cpp.obj
@@ -278,7 +278,7 @@ runtime/neutral/neutral_ops.obj: runtime/neutral/neutral_ops.cpp.obj
 
 # target to build an object file
 runtime/neutral/neutral_ops.cpp.obj:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/neutral/neutral_ops.cpp.obj
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/neutral/neutral_ops.cpp.obj
 .PHONY : runtime/neutral/neutral_ops.cpp.obj
 
 runtime/neutral/neutral_ops.i: runtime/neutral/neutral_ops.cpp.i
@@ -286,7 +286,7 @@ runtime/neutral/neutral_ops.i: runtime/neutral/neutral_ops.cpp.i
 
 # target to preprocess a source file
 runtime/neutral/neutral_ops.cpp.i:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/neutral/neutral_ops.cpp.i
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/neutral/neutral_ops.cpp.i
 .PHONY : runtime/neutral/neutral_ops.cpp.i
 
 runtime/neutral/neutral_ops.s: runtime/neutral/neutral_ops.cpp.s
@@ -294,7 +294,7 @@ runtime/neutral/neutral_ops.s: runtime/neutral/neutral_ops.cpp.s
 
 # target to generate assembly for a file
 runtime/neutral/neutral_ops.cpp.s:
-	cd /d E:\K210\SDK\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/neutral/neutral_ops.cpp.s
+	cd /d E:\K210\riscvLearnning\build && $(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/runtime/neutral/neutral_ops.cpp.s
 .PHONY : runtime/neutral/neutral_ops.cpp.s
 
 # Help Target
@@ -338,6 +338,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\K210\SDK\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d E:\K210\riscvLearnning\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

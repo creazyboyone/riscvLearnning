@@ -1,4 +1,4 @@
-# Install script for directory: E:/K210/SDK/lib/nncase
+# Install script for directory: E:/K210/riscvLearnning/lib/nncase
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

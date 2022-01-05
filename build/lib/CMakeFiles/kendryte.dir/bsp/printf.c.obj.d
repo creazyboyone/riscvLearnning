@@ -1,10 +1,10 @@
 lib/CMakeFiles/kendryte.dir/bsp/printf.c.obj: \
- E:\K210\SDK\lib\bsp\printf.c \
+ E:\K210\riscvLearnning\lib\bsp\printf.c \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stddef.h \
- E:\K210\SDK\lib\bsp\include/atomic.h \
- E:\K210\SDK\lib\bsp\include/printf.h \
+ E:\K210\riscvLearnning\lib\bsp\include/atomic.h \
+ E:\K210\riscvLearnning\lib\bsp\include/printf.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdarg.h \
- E:\K210\SDK\lib\bsp\include/syscalls.h \
+ E:\K210\riscvLearnning\lib\bsp\include/syscalls.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\syscall.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdint.h \

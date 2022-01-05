@@ -1,5 +1,5 @@
 lib/nncase/CMakeFiles/nncase.dir/runtime/interpreter.cpp.obj: \
- E:\K210\SDK\lib\nncase\runtime\interpreter.cpp \
+ E:\K210\riscvLearnning\lib\nncase\runtime\interpreter.cpp \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\cassert \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\riscv64-unknown-elf\bits\c++config.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\riscv64-unknown-elf\bits\os_defines.h \
@@ -138,10 +138,10 @@ lib/nncase/CMakeFiles/nncase.dir/runtime/interpreter.cpp.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\bits\ostream.tcc \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\istream \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\bits\istream.tcc \
- E:\K210\SDK\lib\nncase\include/runtime/interpreter.h \
- E:\K210\SDK\lib\nncase\include/runtime/model.h \
- e:\k210\sdk\lib\nncase\include\datatypes.h \
- e:\k210\sdk\lib\nncase\include\target_config.h \
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/interpreter.h \
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/model.h \
+ e:\k210\riscvlearnning\lib\nncase\include\datatypes.h \
+ e:\k210\riscvlearnning\lib\nncase\include\target_config.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\array \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\utility \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\bits\stl_relops.h \
@@ -164,8 +164,8 @@ lib/nncase/CMakeFiles/nncase.dir/runtime/interpreter.cpp.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\tr1\riemann_zeta.tcc \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\optional \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\bits\enable_special_members.h \
- E:\K210\SDK\lib\nncase\include/runtime/runtime_op.h \
- E:\K210\SDK\lib\nncase\include/runtime/runtime_op.def \
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/runtime_op.h \
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/runtime_op.def \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\chrono \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\ratio \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\ctime \
@@ -189,18 +189,18 @@ lib/nncase/CMakeFiles/nncase.dir/runtime/interpreter.cpp.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\bits\atomic_base.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\bits\atomic_lockfree_defines.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\backward\auto_ptr.h \
- E:\K210\SDK\third_party\xtl\include/xtl/xspan.hpp \
- E:\K210\SDK\third_party\xtl\include/xtl/xspan_impl.hpp \
+ E:\K210\riscvLearnning\third_party\xtl\include/xtl/xspan.hpp \
+ E:\K210\riscvLearnning\third_party\xtl\include/xtl/xspan_impl.hpp \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\c++\8.2.0\cstddef \
- E:\K210\SDK\lib\nncase\include/runtime/kernel_registry.h \
- E:\K210\SDK\lib\nncase\include/runtime/target_interpreter.h \
- E:\K210\SDK\lib\nncase\include/runtime/k210/interpreter.h \
- E:\K210\SDK\lib\nncase\include/runtime/k210/k210_sim_types.h \
- E:\K210\SDK\lib\drivers\include/kpu.h \
- E:\K210\SDK\lib\drivers\include/plic.h \
- E:\K210\SDK\lib\bsp\include/encoding.h \
- E:\K210\SDK\lib\bsp\include/platform.h \
- E:\K210\SDK\lib\drivers\include/dmac.h \
- E:\K210\SDK\lib\drivers\include/io.h \
- E:\K210\SDK\lib\drivers\include/plic.h \
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/kernel_registry.h \
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/target_interpreter.h \
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/k210/interpreter.h \
+ E:\K210\riscvLearnning\lib\nncase\include/runtime/k210/k210_sim_types.h \
+ E:\K210\riscvLearnning\lib\drivers\include/kpu.h \
+ E:\K210\riscvLearnning\lib\drivers\include/plic.h \
+ E:\K210\riscvLearnning\lib\bsp\include/encoding.h \
+ E:\K210\riscvLearnning\lib\bsp\include/platform.h \
+ E:\K210\riscvLearnning\lib\drivers\include/dmac.h \
+ E:\K210\riscvLearnning\lib\drivers\include/io.h \
+ E:\K210\riscvLearnning\lib\drivers\include/plic.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdbool.h

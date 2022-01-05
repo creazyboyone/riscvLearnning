@@ -56,10 +56,10 @@ RM = D:\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\K210\SDK
+CMAKE_SOURCE_DIR = E:\K210\riscvLearnning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\K210\SDK\build
+CMAKE_BINARY_DIR = E:\K210\riscvLearnning\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\K210\SDK\build\CMakeFiles E:\K210\SDK\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\K210\riscvLearnning\build\CMakeFiles E:\K210\riscvLearnning\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\K210\SDK\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\K210\riscvLearnning\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named uart
+# Target rules for targets named dual_core
 
 # Build rule for target.
-uart: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 uart
-.PHONY : uart
+dual_core: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dual_core
+.PHONY : dual_core
 
 # fast build rule for target.
-uart/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\uart.dir\build.make CMakeFiles/uart.dir/build
-.PHONY : uart/fast
+dual_core/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dual_core.dir\build.make CMakeFiles/dual_core.dir/build
+.PHONY : dual_core/fast
 
 #=============================================================================
 # Target rules for targets named kendryte
@@ -154,29 +154,29 @@ nncase/fast:
 	$(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/build
 .PHONY : nncase/fast
 
-src/uart/main.obj: src/uart/main.c.obj
-.PHONY : src/uart/main.obj
+src/dual_core/main.obj: src/dual_core/main.c.obj
+.PHONY : src/dual_core/main.obj
 
 # target to build an object file
-src/uart/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\uart.dir\build.make CMakeFiles/uart.dir/src/uart/main.c.obj
-.PHONY : src/uart/main.c.obj
+src/dual_core/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dual_core.dir\build.make CMakeFiles/dual_core.dir/src/dual_core/main.c.obj
+.PHONY : src/dual_core/main.c.obj
 
-src/uart/main.i: src/uart/main.c.i
-.PHONY : src/uart/main.i
+src/dual_core/main.i: src/dual_core/main.c.i
+.PHONY : src/dual_core/main.i
 
 # target to preprocess a source file
-src/uart/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\uart.dir\build.make CMakeFiles/uart.dir/src/uart/main.c.i
-.PHONY : src/uart/main.c.i
+src/dual_core/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dual_core.dir\build.make CMakeFiles/dual_core.dir/src/dual_core/main.c.i
+.PHONY : src/dual_core/main.c.i
 
-src/uart/main.s: src/uart/main.c.s
-.PHONY : src/uart/main.s
+src/dual_core/main.s: src/dual_core/main.c.s
+.PHONY : src/dual_core/main.s
 
 # target to generate assembly for a file
-src/uart/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\uart.dir\build.make CMakeFiles/uart.dir/src/uart/main.c.s
-.PHONY : src/uart/main.c.s
+src/dual_core/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dual_core.dir\build.make CMakeFiles/dual_core.dir/src/dual_core/main.c.s
+.PHONY : src/dual_core/main.c.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... dual_core
 	@echo ... kendryte
 	@echo ... nncase
-	@echo ... uart
-	@echo ... src/uart/main.obj
-	@echo ... src/uart/main.i
-	@echo ... src/uart/main.s
+	@echo ... src/dual_core/main.obj
+	@echo ... src/dual_core/main.i
+	@echo ... src/dual_core/main.s
 .PHONY : help
 
 

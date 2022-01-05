@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/K210/SDK/lib/nncase/nncase.cpp" "lib/nncase/CMakeFiles/nncase.dir/nncase.cpp.obj" "gcc" "lib/nncase/CMakeFiles/nncase.dir/nncase.cpp.obj.d"
-  "E:/K210/SDK/lib/nncase/runtime/cpu/cpu_ops.cpp" "lib/nncase/CMakeFiles/nncase.dir/runtime/cpu/cpu_ops.cpp.obj" "gcc" "lib/nncase/CMakeFiles/nncase.dir/runtime/cpu/cpu_ops.cpp.obj.d"
-  "E:/K210/SDK/lib/nncase/runtime/interpreter.cpp" "lib/nncase/CMakeFiles/nncase.dir/runtime/interpreter.cpp.obj" "gcc" "lib/nncase/CMakeFiles/nncase.dir/runtime/interpreter.cpp.obj.d"
-  "E:/K210/SDK/lib/nncase/runtime/k210/interpreter.cpp" "lib/nncase/CMakeFiles/nncase.dir/runtime/k210/interpreter.cpp.obj" "gcc" "lib/nncase/CMakeFiles/nncase.dir/runtime/k210/interpreter.cpp.obj.d"
-  "E:/K210/SDK/lib/nncase/runtime/k210/k210_ops.cpp" "lib/nncase/CMakeFiles/nncase.dir/runtime/k210/k210_ops.cpp.obj" "gcc" "lib/nncase/CMakeFiles/nncase.dir/runtime/k210/k210_ops.cpp.obj.d"
-  "E:/K210/SDK/lib/nncase/runtime/kernel_registry.cpp" "lib/nncase/CMakeFiles/nncase.dir/runtime/kernel_registry.cpp.obj" "gcc" "lib/nncase/CMakeFiles/nncase.dir/runtime/kernel_registry.cpp.obj.d"
-  "E:/K210/SDK/lib/nncase/runtime/neutral/neutral_ops.cpp" "lib/nncase/CMakeFiles/nncase.dir/runtime/neutral/neutral_ops.cpp.obj" "gcc" "lib/nncase/CMakeFiles/nncase.dir/runtime/neutral/neutral_ops.cpp.obj.d"
+  "E:/K210/riscvLearnning/lib/nncase/nncase.cpp" "lib/nncase/CMakeFiles/nncase.dir/nncase.cpp.obj" "gcc" "lib/nncase/CMakeFiles/nncase.dir/nncase.cpp.obj.d"
+  "E:/K210/riscvLearnning/lib/nncase/runtime/cpu/cpu_ops.cpp" "lib/nncase/CMakeFiles/nncase.dir/runtime/cpu/cpu_ops.cpp.obj" "gcc" "lib/nncase/CMakeFiles/nncase.dir/runtime/cpu/cpu_ops.cpp.obj.d"
+  "E:/K210/riscvLearnning/lib/nncase/runtime/interpreter.cpp" "lib/nncase/CMakeFiles/nncase.dir/runtime/interpreter.cpp.obj" "gcc" "lib/nncase/CMakeFiles/nncase.dir/runtime/interpreter.cpp.obj.d"
+  "E:/K210/riscvLearnning/lib/nncase/runtime/k210/interpreter.cpp" "lib/nncase/CMakeFiles/nncase.dir/runtime/k210/interpreter.cpp.obj" "gcc" "lib/nncase/CMakeFiles/nncase.dir/runtime/k210/interpreter.cpp.obj.d"
+  "E:/K210/riscvLearnning/lib/nncase/runtime/k210/k210_ops.cpp" "lib/nncase/CMakeFiles/nncase.dir/runtime/k210/k210_ops.cpp.obj" "gcc" "lib/nncase/CMakeFiles/nncase.dir/runtime/k210/k210_ops.cpp.obj.d"
+  "E:/K210/riscvLearnning/lib/nncase/runtime/kernel_registry.cpp" "lib/nncase/CMakeFiles/nncase.dir/runtime/kernel_registry.cpp.obj" "gcc" "lib/nncase/CMakeFiles/nncase.dir/runtime/kernel_registry.cpp.obj.d"
+  "E:/K210/riscvLearnning/lib/nncase/runtime/neutral/neutral_ops.cpp" "lib/nncase/CMakeFiles/nncase.dir/runtime/neutral/neutral_ops.cpp.obj" "gcc" "lib/nncase/CMakeFiles/nncase.dir/runtime/neutral/neutral_ops.cpp.obj.d"
   )
 
 # Targets to which this target links.

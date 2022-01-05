@@ -1,7 +1,7 @@
 lib/CMakeFiles/kendryte.dir/drivers/pwm.c.obj: \
- E:\K210\SDK\lib\drivers\pwm.c \
+ E:\K210\riscvLearnning\lib\drivers\pwm.c \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stddef.h \
- E:\K210\SDK\lib\drivers\include/io.h \
+ E:\K210\riscvLearnning\lib\drivers\include/io.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\_default_types.h \
@@ -9,13 +9,13 @@ lib/CMakeFiles/kendryte.dir/drivers/pwm.c.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\_newlib_version.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\_intsup.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\_stdint.h \
- E:\K210\SDK\lib\drivers\include/plic.h \
- E:\K210\SDK\lib\bsp\include/encoding.h \
- E:\K210\SDK\lib\bsp\include/platform.h \
- E:\K210\SDK\lib\drivers\include/pwm.h \
- E:\K210\SDK\lib\drivers\include/sysctl.h \
- E:\K210\SDK\lib\drivers\include/timer.h \
- E:\K210\SDK\lib\drivers\include/utils.h \
+ E:\K210\riscvLearnning\lib\drivers\include/plic.h \
+ E:\K210\riscvLearnning\lib\bsp\include/encoding.h \
+ E:\K210\riscvLearnning\lib\bsp\include/platform.h \
+ E:\K210\riscvLearnning\lib\drivers\include/pwm.h \
+ E:\K210\riscvLearnning\lib\drivers\include/sysctl.h \
+ E:\K210\riscvLearnning\lib\drivers\include/timer.h \
+ E:\K210\riscvLearnning\lib\drivers\include/utils.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdbool.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdio.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\_ansi.h \

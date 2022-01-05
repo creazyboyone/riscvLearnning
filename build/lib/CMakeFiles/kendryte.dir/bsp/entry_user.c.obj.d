@@ -1,5 +1,5 @@
 lib/CMakeFiles/kendryte.dir/bsp/entry_user.c.obj: \
- E:\K210\SDK\lib\bsp\entry_user.c \
+ E:\K210\riscvLearnning\lib\bsp\entry_user.c \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdlib.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\ieeefp.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\_ansi.h \
@@ -17,26 +17,26 @@ lib/CMakeFiles/kendryte.dir/bsp/entry_user.c.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\cdefs.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\stdlib.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\alloca.h \
- E:\K210\SDK\lib\bsp\include/atomic.h \
- E:\K210\SDK\lib\drivers\include/clint.h \
+ E:\K210\riscvLearnning\lib\bsp\include/atomic.h \
+ E:\K210\riscvLearnning\lib\drivers\include/clint.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\_intsup.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\_stdint.h \
- E:\K210\SDK\lib\bsp\include/platform.h \
- E:\K210\SDK\lib\drivers\include/dmac.h \
- E:\K210\SDK\lib\drivers\include/io.h \
- E:\K210\SDK\lib\drivers\include/plic.h \
- E:\K210\SDK\lib\bsp\include/encoding.h \
+ E:\K210\riscvLearnning\lib\bsp\include/platform.h \
+ E:\K210\riscvLearnning\lib\drivers\include/dmac.h \
+ E:\K210\riscvLearnning\lib\drivers\include/io.h \
+ E:\K210\riscvLearnning\lib\drivers\include/plic.h \
+ E:\K210\riscvLearnning\lib\bsp\include/encoding.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdbool.h \
- E:\K210\SDK\lib\bsp\include/entry.h \
+ E:\K210\riscvLearnning\lib\bsp\include/entry.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\string.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\xlocale.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\strings.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\string.h \
- E:\K210\SDK\lib\drivers\include/fpioa.h \
- E:\K210\SDK\lib\drivers\include/plic.h \
- E:\K210\SDK\lib\bsp\include/syscalls.h \
+ E:\K210\riscvLearnning\lib\drivers\include/fpioa.h \
+ E:\K210\riscvLearnning\lib\drivers\include/plic.h \
+ E:\K210\riscvLearnning\lib\bsp\include/syscalls.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\syscall.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdio.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdarg.h \
@@ -52,8 +52,8 @@ lib/CMakeFiles/kendryte.dir/bsp/entry_user.c.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\sched.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\types.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\stdio.h \
- E:\K210\SDK\lib\drivers\include/sysctl.h \
- E:\K210\SDK\lib\utils\include/syslog.h \
- E:\K210\SDK\lib\bsp\include/printf.h \
- E:\K210\SDK\lib\drivers\include/uart.h \
- E:\K210\SDK\lib\drivers\include/dmac.h
+ E:\K210\riscvLearnning\lib\drivers\include/sysctl.h \
+ E:\K210\riscvLearnning\lib\utils\include/syslog.h \
+ E:\K210\riscvLearnning\lib\bsp\include/printf.h \
+ E:\K210\riscvLearnning\lib\drivers\include/uart.h \
+ E:\K210\riscvLearnning\lib\drivers\include/dmac.h

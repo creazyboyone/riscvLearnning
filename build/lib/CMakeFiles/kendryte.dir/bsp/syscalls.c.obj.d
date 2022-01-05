@@ -1,5 +1,5 @@
 lib/CMakeFiles/kendryte.dir/bsp/syscalls.c.obj: \
- E:\K210\SDK\lib\bsp\syscalls.c \
+ E:\K210\riscvLearnning\lib\bsp\syscalls.c \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\errno.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\errno.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\reent.h \
@@ -53,19 +53,19 @@ lib/CMakeFiles/kendryte.dir/bsp/syscalls.c.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\time.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\_time.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\unistd.h \
- E:\K210\SDK\lib\bsp\include/atomic.h \
- E:\K210\SDK\lib\drivers\include/clint.h \
- E:\K210\SDK\lib\bsp\include/platform.h \
- E:\K210\SDK\lib\bsp\include/dump.h \
- E:\K210\SDK\lib\utils\include/syslog.h \
- E:\K210\SDK\lib\bsp\include/encoding.h \
- E:\K210\SDK\lib\bsp\include/printf.h \
- E:\K210\SDK\lib\drivers\include/uarths.h \
- E:\K210\SDK\lib\drivers\include/plic.h \
- E:\K210\SDK\lib\drivers\include/fpioa.h \
- E:\K210\SDK\lib\bsp\include/interrupt.h \
- E:\K210\SDK\lib\bsp\include/syscalls.h \
- E:\K210\SDK\lib\drivers\include/sysctl.h \
- E:\K210\SDK\lib\bsp\include/util.h \
- E:\K210\SDK\lib\bsp\include/encoding.h \
- E:\K210\SDK\lib\drivers\include/iomem.h
+ E:\K210\riscvLearnning\lib\bsp\include/atomic.h \
+ E:\K210\riscvLearnning\lib\drivers\include/clint.h \
+ E:\K210\riscvLearnning\lib\bsp\include/platform.h \
+ E:\K210\riscvLearnning\lib\bsp\include/dump.h \
+ E:\K210\riscvLearnning\lib\utils\include/syslog.h \
+ E:\K210\riscvLearnning\lib\bsp\include/encoding.h \
+ E:\K210\riscvLearnning\lib\bsp\include/printf.h \
+ E:\K210\riscvLearnning\lib\drivers\include/uarths.h \
+ E:\K210\riscvLearnning\lib\drivers\include/plic.h \
+ E:\K210\riscvLearnning\lib\drivers\include/fpioa.h \
+ E:\K210\riscvLearnning\lib\bsp\include/interrupt.h \
+ E:\K210\riscvLearnning\lib\bsp\include/syscalls.h \
+ E:\K210\riscvLearnning\lib\drivers\include/sysctl.h \
+ E:\K210\riscvLearnning\lib\bsp\include/util.h \
+ E:\K210\riscvLearnning\lib\bsp\include/encoding.h \
+ E:\K210\riscvLearnning\lib\drivers\include/iomem.h

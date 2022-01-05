@@ -1,5 +1,5 @@
 lib/CMakeFiles/kendryte.dir/drivers/rtc.c.obj: \
- E:\K210\SDK\lib\drivers\rtc.c \
+ E:\K210\riscvLearnning\lib\drivers\rtc.c \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\_default_types.h \
@@ -35,14 +35,14 @@ lib/CMakeFiles/kendryte.dir/drivers/rtc.c.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\sched.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\types.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\xlocale.h \
- E:\K210\SDK\lib\bsp\include/encoding.h \
- E:\K210\SDK\lib\bsp\include/printf.h \
+ E:\K210\riscvLearnning\lib\bsp\include/encoding.h \
+ E:\K210\riscvLearnning\lib\bsp\include/printf.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdarg.h \
- E:\K210\SDK\lib\drivers\include/rtc.h \
- E:\K210\SDK\lib\drivers\include/plic.h \
- E:\K210\SDK\lib\bsp\include/platform.h \
+ E:\K210\riscvLearnning\lib\drivers\include/rtc.h \
+ E:\K210\riscvLearnning\lib\drivers\include/plic.h \
+ E:\K210\riscvLearnning\lib\bsp\include/platform.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdbool.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\string.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\strings.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\string.h \
- E:\K210\SDK\lib\drivers\include/sysctl.h
+ E:\K210\riscvLearnning\lib\drivers\include/sysctl.h

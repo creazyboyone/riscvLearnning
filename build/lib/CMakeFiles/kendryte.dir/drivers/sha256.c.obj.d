@@ -1,5 +1,5 @@
 lib/CMakeFiles/kendryte.dir/drivers/sha256.c.obj: \
- E:\K210\SDK\lib\drivers\sha256.c \
+ E:\K210\riscvLearnning\lib\drivers\sha256.c \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\string.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\_ansi.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\newlib.h \
@@ -18,14 +18,14 @@ lib/CMakeFiles/kendryte.dir/drivers/sha256.c.obj: \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\xlocale.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\strings.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\string.h \
- E:\K210\SDK\lib\drivers\include/sha256.h \
+ E:\K210\riscvLearnning\lib\drivers\include/sha256.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdint.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\_intsup.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\_stdint.h \
- E:\K210\SDK\lib\drivers\include/sysctl.h \
- E:\K210\SDK\lib\bsp\include/platform.h \
- E:\K210\SDK\lib\drivers\include/utils.h \
+ E:\K210\riscvLearnning\lib\drivers\include/sysctl.h \
+ E:\K210\riscvLearnning\lib\bsp\include/platform.h \
+ E:\K210\riscvLearnning\lib\drivers\include/utils.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdbool.h \
  d:\kendryte-toolchain\riscv64-unknown-elf\include\stdio.h \
  d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdarg.h \
