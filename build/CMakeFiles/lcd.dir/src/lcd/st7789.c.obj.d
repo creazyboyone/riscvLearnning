@@ -1,0 +1,22 @@
+CMakeFiles/lcd.dir/src/lcd/st7789.c.obj: \
+ E:\K210\riscvLearnning\src\lcd\st7789.c \
+ E:\K210\riscvLearnning\src\lcd\st7789.h \
+ d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdint.h \
+ d:\kendryte-toolchain\riscv64-unknown-elf\include\stdint.h \
+ d:\kendryte-toolchain\riscv64-unknown-elf\include\machine\_default_types.h \
+ d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\features.h \
+ d:\kendryte-toolchain\riscv64-unknown-elf\include\_newlib_version.h \
+ d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\_intsup.h \
+ d:\kendryte-toolchain\riscv64-unknown-elf\include\sys\_stdint.h \
+ E:\K210\riscvLearnning\lib\drivers\include/gpiohs.h \
+ d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stddef.h \
+ E:\K210\riscvLearnning\lib\drivers\include/gpio_common.h \
+ E:\K210\riscvLearnning\lib\bsp\include/platform.h \
+ E:\K210\riscvLearnning\lib\drivers\include/plic.h \
+ E:\K210\riscvLearnning\lib\bsp\include/encoding.h \
+ E:\K210\riscvLearnning\lib\drivers\include/spi.h \
+ E:\K210\riscvLearnning\lib\drivers\include/dmac.h \
+ E:\K210\riscvLearnning\lib\drivers\include/io.h \
+ d:\kendryte-toolchain\lib\gcc\riscv64-unknown-elf\8.2.0\include\stdbool.h \
+ E:\K210\riscvLearnning\src\lcd\pin_config.h \
+ E:\K210\riscvLearnning\lib\drivers\include/fpioa.h

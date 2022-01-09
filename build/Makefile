@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named dmac
+# Target rules for targets named lcd
 
 # Build rule for target.
-dmac: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dmac
-.PHONY : dmac
+lcd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lcd
+.PHONY : lcd
 
 # fast build rule for target.
-dmac/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dmac.dir\build.make CMakeFiles/dmac.dir/build
-.PHONY : dmac/fast
+lcd/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/build
+.PHONY : lcd/fast
 
 #=============================================================================
 # Target rules for targets named kendryte
@@ -154,29 +154,101 @@ nncase/fast:
 	$(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/build
 .PHONY : nncase/fast
 
-src/dmac/main.obj: src/dmac/main.c.obj
-.PHONY : src/dmac/main.obj
+src/lcd/lcd.obj: src/lcd/lcd.c.obj
+.PHONY : src/lcd/lcd.obj
 
 # target to build an object file
-src/dmac/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dmac.dir\build.make CMakeFiles/dmac.dir/src/dmac/main.c.obj
-.PHONY : src/dmac/main.c.obj
+src/lcd/lcd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/lcd.c.obj
+.PHONY : src/lcd/lcd.c.obj
 
-src/dmac/main.i: src/dmac/main.c.i
-.PHONY : src/dmac/main.i
+src/lcd/lcd.i: src/lcd/lcd.c.i
+.PHONY : src/lcd/lcd.i
 
 # target to preprocess a source file
-src/dmac/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dmac.dir\build.make CMakeFiles/dmac.dir/src/dmac/main.c.i
-.PHONY : src/dmac/main.c.i
+src/lcd/lcd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/lcd.c.i
+.PHONY : src/lcd/lcd.c.i
 
-src/dmac/main.s: src/dmac/main.c.s
-.PHONY : src/dmac/main.s
+src/lcd/lcd.s: src/lcd/lcd.c.s
+.PHONY : src/lcd/lcd.s
 
 # target to generate assembly for a file
-src/dmac/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dmac.dir\build.make CMakeFiles/dmac.dir/src/dmac/main.c.s
-.PHONY : src/dmac/main.c.s
+src/lcd/lcd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/lcd.c.s
+.PHONY : src/lcd/lcd.c.s
+
+src/lcd/logo.obj: src/lcd/logo.c.obj
+.PHONY : src/lcd/logo.obj
+
+# target to build an object file
+src/lcd/logo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/logo.c.obj
+.PHONY : src/lcd/logo.c.obj
+
+src/lcd/logo.i: src/lcd/logo.c.i
+.PHONY : src/lcd/logo.i
+
+# target to preprocess a source file
+src/lcd/logo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/logo.c.i
+.PHONY : src/lcd/logo.c.i
+
+src/lcd/logo.s: src/lcd/logo.c.s
+.PHONY : src/lcd/logo.s
+
+# target to generate assembly for a file
+src/lcd/logo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/logo.c.s
+.PHONY : src/lcd/logo.c.s
+
+src/lcd/main.obj: src/lcd/main.c.obj
+.PHONY : src/lcd/main.obj
+
+# target to build an object file
+src/lcd/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/main.c.obj
+.PHONY : src/lcd/main.c.obj
+
+src/lcd/main.i: src/lcd/main.c.i
+.PHONY : src/lcd/main.i
+
+# target to preprocess a source file
+src/lcd/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/main.c.i
+.PHONY : src/lcd/main.c.i
+
+src/lcd/main.s: src/lcd/main.c.s
+.PHONY : src/lcd/main.s
+
+# target to generate assembly for a file
+src/lcd/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/main.c.s
+.PHONY : src/lcd/main.c.s
+
+src/lcd/st7789.obj: src/lcd/st7789.c.obj
+.PHONY : src/lcd/st7789.obj
+
+# target to build an object file
+src/lcd/st7789.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/st7789.c.obj
+.PHONY : src/lcd/st7789.c.obj
+
+src/lcd/st7789.i: src/lcd/st7789.c.i
+.PHONY : src/lcd/st7789.i
+
+# target to preprocess a source file
+src/lcd/st7789.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/st7789.c.i
+.PHONY : src/lcd/st7789.c.i
+
+src/lcd/st7789.s: src/lcd/st7789.c.s
+.PHONY : src/lcd/st7789.s
+
+# target to generate assembly for a file
+src/lcd/st7789.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/st7789.c.s
+.PHONY : src/lcd/st7789.c.s
 
 # Help Target
 help:
@@ -186,12 +258,21 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... dmac
 	@echo ... kendryte
+	@echo ... lcd
 	@echo ... nncase
-	@echo ... src/dmac/main.obj
-	@echo ... src/dmac/main.i
-	@echo ... src/dmac/main.s
+	@echo ... src/lcd/lcd.obj
+	@echo ... src/lcd/lcd.i
+	@echo ... src/lcd/lcd.s
+	@echo ... src/lcd/logo.obj
+	@echo ... src/lcd/logo.i
+	@echo ... src/lcd/logo.s
+	@echo ... src/lcd/main.obj
+	@echo ... src/lcd/main.i
+	@echo ... src/lcd/main.s
+	@echo ... src/lcd/st7789.obj
+	@echo ... src/lcd/st7789.i
+	@echo ... src/lcd/st7789.s
 .PHONY : help
 
 
