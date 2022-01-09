@@ -54,7 +54,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/watchdog.dir/DependInfo.cmake"
+  "CMakeFiles/flash.dir/DependInfo.cmake"
   "lib/CMakeFiles/kendryte.dir/DependInfo.cmake"
   "lib/nncase/CMakeFiles/nncase.dir/DependInfo.cmake"
   )

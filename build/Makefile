@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named watchdog
+# Target rules for targets named flash
 
 # Build rule for target.
-watchdog: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 watchdog
-.PHONY : watchdog
+flash: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 flash
+.PHONY : flash
 
 # fast build rule for target.
-watchdog/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\watchdog.dir\build.make CMakeFiles/watchdog.dir/build
-.PHONY : watchdog/fast
+flash/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/build
+.PHONY : flash/fast
 
 #=============================================================================
 # Target rules for targets named kendryte
@@ -154,29 +154,53 @@ nncase/fast:
 	$(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/build
 .PHONY : nncase/fast
 
-src/watchdog/main.obj: src/watchdog/main.c.obj
-.PHONY : src/watchdog/main.obj
+src/flash/main.obj: src/flash/main.c.obj
+.PHONY : src/flash/main.obj
 
 # target to build an object file
-src/watchdog/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\watchdog.dir\build.make CMakeFiles/watchdog.dir/src/watchdog/main.c.obj
-.PHONY : src/watchdog/main.c.obj
+src/flash/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/src/flash/main.c.obj
+.PHONY : src/flash/main.c.obj
 
-src/watchdog/main.i: src/watchdog/main.c.i
-.PHONY : src/watchdog/main.i
+src/flash/main.i: src/flash/main.c.i
+.PHONY : src/flash/main.i
 
 # target to preprocess a source file
-src/watchdog/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\watchdog.dir\build.make CMakeFiles/watchdog.dir/src/watchdog/main.c.i
-.PHONY : src/watchdog/main.c.i
+src/flash/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/src/flash/main.c.i
+.PHONY : src/flash/main.c.i
 
-src/watchdog/main.s: src/watchdog/main.c.s
-.PHONY : src/watchdog/main.s
+src/flash/main.s: src/flash/main.c.s
+.PHONY : src/flash/main.s
 
 # target to generate assembly for a file
-src/watchdog/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\watchdog.dir\build.make CMakeFiles/watchdog.dir/src/watchdog/main.c.s
-.PHONY : src/watchdog/main.c.s
+src/flash/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/src/flash/main.c.s
+.PHONY : src/flash/main.c.s
+
+src/flash/w25qxx.obj: src/flash/w25qxx.c.obj
+.PHONY : src/flash/w25qxx.obj
+
+# target to build an object file
+src/flash/w25qxx.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/src/flash/w25qxx.c.obj
+.PHONY : src/flash/w25qxx.c.obj
+
+src/flash/w25qxx.i: src/flash/w25qxx.c.i
+.PHONY : src/flash/w25qxx.i
+
+# target to preprocess a source file
+src/flash/w25qxx.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/src/flash/w25qxx.c.i
+.PHONY : src/flash/w25qxx.c.i
+
+src/flash/w25qxx.s: src/flash/w25qxx.c.s
+.PHONY : src/flash/w25qxx.s
+
+# target to generate assembly for a file
+src/flash/w25qxx.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/src/flash/w25qxx.c.s
+.PHONY : src/flash/w25qxx.c.s
 
 # Help Target
 help:
@@ -186,12 +210,15 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... flash
 	@echo ... kendryte
 	@echo ... nncase
-	@echo ... watchdog
-	@echo ... src/watchdog/main.obj
-	@echo ... src/watchdog/main.i
-	@echo ... src/watchdog/main.s
+	@echo ... src/flash/main.obj
+	@echo ... src/flash/main.i
+	@echo ... src/flash/main.s
+	@echo ... src/flash/w25qxx.obj
+	@echo ... src/flash/w25qxx.i
+	@echo ... src/flash/w25qxx.s
 .PHONY : help
 
 
