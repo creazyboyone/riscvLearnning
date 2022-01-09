@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named mic
+# Target rules for targets named watchdog
 
 # Build rule for target.
-mic: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 mic
-.PHONY : mic
+watchdog: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 watchdog
+.PHONY : watchdog
 
 # fast build rule for target.
-mic/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mic.dir\build.make CMakeFiles/mic.dir/build
-.PHONY : mic/fast
+watchdog/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watchdog.dir\build.make CMakeFiles/watchdog.dir/build
+.PHONY : watchdog/fast
 
 #=============================================================================
 # Target rules for targets named kendryte
@@ -154,29 +154,29 @@ nncase/fast:
 	$(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/build
 .PHONY : nncase/fast
 
-src/mic/main.obj: src/mic/main.c.obj
-.PHONY : src/mic/main.obj
+src/watchdog/main.obj: src/watchdog/main.c.obj
+.PHONY : src/watchdog/main.obj
 
 # target to build an object file
-src/mic/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mic.dir\build.make CMakeFiles/mic.dir/src/mic/main.c.obj
-.PHONY : src/mic/main.c.obj
+src/watchdog/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watchdog.dir\build.make CMakeFiles/watchdog.dir/src/watchdog/main.c.obj
+.PHONY : src/watchdog/main.c.obj
 
-src/mic/main.i: src/mic/main.c.i
-.PHONY : src/mic/main.i
+src/watchdog/main.i: src/watchdog/main.c.i
+.PHONY : src/watchdog/main.i
 
 # target to preprocess a source file
-src/mic/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mic.dir\build.make CMakeFiles/mic.dir/src/mic/main.c.i
-.PHONY : src/mic/main.c.i
+src/watchdog/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watchdog.dir\build.make CMakeFiles/watchdog.dir/src/watchdog/main.c.i
+.PHONY : src/watchdog/main.c.i
 
-src/mic/main.s: src/mic/main.c.s
-.PHONY : src/mic/main.s
+src/watchdog/main.s: src/watchdog/main.c.s
+.PHONY : src/watchdog/main.s
 
 # target to generate assembly for a file
-src/mic/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mic.dir\build.make CMakeFiles/mic.dir/src/mic/main.c.s
-.PHONY : src/mic/main.c.s
+src/watchdog/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\watchdog.dir\build.make CMakeFiles/watchdog.dir/src/watchdog/main.c.s
+.PHONY : src/watchdog/main.c.s
 
 # Help Target
 help:
@@ -187,11 +187,11 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... kendryte
-	@echo ... mic
 	@echo ... nncase
-	@echo ... src/mic/main.obj
-	@echo ... src/mic/main.i
-	@echo ... src/mic/main.s
+	@echo ... watchdog
+	@echo ... src/watchdog/main.obj
+	@echo ... src/watchdog/main.i
+	@echo ... src/watchdog/main.s
 .PHONY : help
 
 
