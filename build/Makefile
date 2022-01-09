@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named flash
+# Target rules for targets named gyro
 
 # Build rule for target.
-flash: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 flash
-.PHONY : flash
+gyro: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gyro
+.PHONY : gyro
 
 # fast build rule for target.
-flash/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/build
-.PHONY : flash/fast
+gyro/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gyro.dir\build.make CMakeFiles/gyro.dir/build
+.PHONY : gyro/fast
 
 #=============================================================================
 # Target rules for targets named kendryte
@@ -154,53 +154,77 @@ nncase/fast:
 	$(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/build
 .PHONY : nncase/fast
 
-src/flash/main.obj: src/flash/main.c.obj
-.PHONY : src/flash/main.obj
+src/gyro/i2c_ctl/i2c_ctl.obj: src/gyro/i2c_ctl/i2c_ctl.c.obj
+.PHONY : src/gyro/i2c_ctl/i2c_ctl.obj
 
 # target to build an object file
-src/flash/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/src/flash/main.c.obj
-.PHONY : src/flash/main.c.obj
+src/gyro/i2c_ctl/i2c_ctl.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gyro.dir\build.make CMakeFiles/gyro.dir/src/gyro/i2c_ctl/i2c_ctl.c.obj
+.PHONY : src/gyro/i2c_ctl/i2c_ctl.c.obj
 
-src/flash/main.i: src/flash/main.c.i
-.PHONY : src/flash/main.i
+src/gyro/i2c_ctl/i2c_ctl.i: src/gyro/i2c_ctl/i2c_ctl.c.i
+.PHONY : src/gyro/i2c_ctl/i2c_ctl.i
 
 # target to preprocess a source file
-src/flash/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/src/flash/main.c.i
-.PHONY : src/flash/main.c.i
+src/gyro/i2c_ctl/i2c_ctl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gyro.dir\build.make CMakeFiles/gyro.dir/src/gyro/i2c_ctl/i2c_ctl.c.i
+.PHONY : src/gyro/i2c_ctl/i2c_ctl.c.i
 
-src/flash/main.s: src/flash/main.c.s
-.PHONY : src/flash/main.s
+src/gyro/i2c_ctl/i2c_ctl.s: src/gyro/i2c_ctl/i2c_ctl.c.s
+.PHONY : src/gyro/i2c_ctl/i2c_ctl.s
 
 # target to generate assembly for a file
-src/flash/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/src/flash/main.c.s
-.PHONY : src/flash/main.c.s
+src/gyro/i2c_ctl/i2c_ctl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gyro.dir\build.make CMakeFiles/gyro.dir/src/gyro/i2c_ctl/i2c_ctl.c.s
+.PHONY : src/gyro/i2c_ctl/i2c_ctl.c.s
 
-src/flash/w25qxx.obj: src/flash/w25qxx.c.obj
-.PHONY : src/flash/w25qxx.obj
+src/gyro/icm20607.obj: src/gyro/icm20607.c.obj
+.PHONY : src/gyro/icm20607.obj
 
 # target to build an object file
-src/flash/w25qxx.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/src/flash/w25qxx.c.obj
-.PHONY : src/flash/w25qxx.c.obj
+src/gyro/icm20607.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gyro.dir\build.make CMakeFiles/gyro.dir/src/gyro/icm20607.c.obj
+.PHONY : src/gyro/icm20607.c.obj
 
-src/flash/w25qxx.i: src/flash/w25qxx.c.i
-.PHONY : src/flash/w25qxx.i
+src/gyro/icm20607.i: src/gyro/icm20607.c.i
+.PHONY : src/gyro/icm20607.i
 
 # target to preprocess a source file
-src/flash/w25qxx.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/src/flash/w25qxx.c.i
-.PHONY : src/flash/w25qxx.c.i
+src/gyro/icm20607.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gyro.dir\build.make CMakeFiles/gyro.dir/src/gyro/icm20607.c.i
+.PHONY : src/gyro/icm20607.c.i
 
-src/flash/w25qxx.s: src/flash/w25qxx.c.s
-.PHONY : src/flash/w25qxx.s
+src/gyro/icm20607.s: src/gyro/icm20607.c.s
+.PHONY : src/gyro/icm20607.s
 
 # target to generate assembly for a file
-src/flash/w25qxx.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/src/flash/w25qxx.c.s
-.PHONY : src/flash/w25qxx.c.s
+src/gyro/icm20607.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gyro.dir\build.make CMakeFiles/gyro.dir/src/gyro/icm20607.c.s
+.PHONY : src/gyro/icm20607.c.s
+
+src/gyro/main.obj: src/gyro/main.c.obj
+.PHONY : src/gyro/main.obj
+
+# target to build an object file
+src/gyro/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gyro.dir\build.make CMakeFiles/gyro.dir/src/gyro/main.c.obj
+.PHONY : src/gyro/main.c.obj
+
+src/gyro/main.i: src/gyro/main.c.i
+.PHONY : src/gyro/main.i
+
+# target to preprocess a source file
+src/gyro/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gyro.dir\build.make CMakeFiles/gyro.dir/src/gyro/main.c.i
+.PHONY : src/gyro/main.c.i
+
+src/gyro/main.s: src/gyro/main.c.s
+.PHONY : src/gyro/main.s
+
+# target to generate assembly for a file
+src/gyro/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gyro.dir\build.make CMakeFiles/gyro.dir/src/gyro/main.c.s
+.PHONY : src/gyro/main.c.s
 
 # Help Target
 help:
@@ -210,15 +234,18 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... flash
+	@echo ... gyro
 	@echo ... kendryte
 	@echo ... nncase
-	@echo ... src/flash/main.obj
-	@echo ... src/flash/main.i
-	@echo ... src/flash/main.s
-	@echo ... src/flash/w25qxx.obj
-	@echo ... src/flash/w25qxx.i
-	@echo ... src/flash/w25qxx.s
+	@echo ... src/gyro/i2c_ctl/i2c_ctl.obj
+	@echo ... src/gyro/i2c_ctl/i2c_ctl.i
+	@echo ... src/gyro/i2c_ctl/i2c_ctl.s
+	@echo ... src/gyro/icm20607.obj
+	@echo ... src/gyro/icm20607.i
+	@echo ... src/gyro/icm20607.s
+	@echo ... src/gyro/main.obj
+	@echo ... src/gyro/main.i
+	@echo ... src/gyro/main.s
 .PHONY : help
 
 
