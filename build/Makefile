@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named touch
+# Target rules for targets named camera
 
 # Build rule for target.
-touch: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 touch
-.PHONY : touch
+camera: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 camera
+.PHONY : camera
 
 # fast build rule for target.
-touch/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/build
-.PHONY : touch/fast
+camera/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/build
+.PHONY : camera/fast
 
 #=============================================================================
 # Target rules for targets named kendryte
@@ -154,149 +154,149 @@ nncase/fast:
 	$(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/build
 .PHONY : nncase/fast
 
-src/touch/ft6236u.obj: src/touch/ft6236u.c.obj
-.PHONY : src/touch/ft6236u.obj
+src/camera/dvp_cam.obj: src/camera/dvp_cam.c.obj
+.PHONY : src/camera/dvp_cam.obj
 
 # target to build an object file
-src/touch/ft6236u.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/ft6236u.c.obj
-.PHONY : src/touch/ft6236u.c.obj
+src/camera/dvp_cam.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/dvp_cam.c.obj
+.PHONY : src/camera/dvp_cam.c.obj
 
-src/touch/ft6236u.i: src/touch/ft6236u.c.i
-.PHONY : src/touch/ft6236u.i
+src/camera/dvp_cam.i: src/camera/dvp_cam.c.i
+.PHONY : src/camera/dvp_cam.i
 
 # target to preprocess a source file
-src/touch/ft6236u.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/ft6236u.c.i
-.PHONY : src/touch/ft6236u.c.i
+src/camera/dvp_cam.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/dvp_cam.c.i
+.PHONY : src/camera/dvp_cam.c.i
 
-src/touch/ft6236u.s: src/touch/ft6236u.c.s
-.PHONY : src/touch/ft6236u.s
+src/camera/dvp_cam.s: src/camera/dvp_cam.c.s
+.PHONY : src/camera/dvp_cam.s
 
 # target to generate assembly for a file
-src/touch/ft6236u.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/ft6236u.c.s
-.PHONY : src/touch/ft6236u.c.s
+src/camera/dvp_cam.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/dvp_cam.c.s
+.PHONY : src/camera/dvp_cam.c.s
 
-src/touch/i2c_ctl.obj: src/touch/i2c_ctl.c.obj
-.PHONY : src/touch/i2c_ctl.obj
+src/camera/lcd/lcd.obj: src/camera/lcd/lcd.c.obj
+.PHONY : src/camera/lcd/lcd.obj
 
 # target to build an object file
-src/touch/i2c_ctl.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/i2c_ctl.c.obj
-.PHONY : src/touch/i2c_ctl.c.obj
+src/camera/lcd/lcd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/lcd/lcd.c.obj
+.PHONY : src/camera/lcd/lcd.c.obj
 
-src/touch/i2c_ctl.i: src/touch/i2c_ctl.c.i
-.PHONY : src/touch/i2c_ctl.i
+src/camera/lcd/lcd.i: src/camera/lcd/lcd.c.i
+.PHONY : src/camera/lcd/lcd.i
 
 # target to preprocess a source file
-src/touch/i2c_ctl.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/i2c_ctl.c.i
-.PHONY : src/touch/i2c_ctl.c.i
+src/camera/lcd/lcd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/lcd/lcd.c.i
+.PHONY : src/camera/lcd/lcd.c.i
 
-src/touch/i2c_ctl.s: src/touch/i2c_ctl.c.s
-.PHONY : src/touch/i2c_ctl.s
+src/camera/lcd/lcd.s: src/camera/lcd/lcd.c.s
+.PHONY : src/camera/lcd/lcd.s
 
 # target to generate assembly for a file
-src/touch/i2c_ctl.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/i2c_ctl.c.s
-.PHONY : src/touch/i2c_ctl.c.s
+src/camera/lcd/lcd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/lcd/lcd.c.s
+.PHONY : src/camera/lcd/lcd.c.s
 
-src/touch/lcd/lcd.obj: src/touch/lcd/lcd.c.obj
-.PHONY : src/touch/lcd/lcd.obj
+src/camera/lcd/logo.obj: src/camera/lcd/logo.c.obj
+.PHONY : src/camera/lcd/logo.obj
 
 # target to build an object file
-src/touch/lcd/lcd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/lcd/lcd.c.obj
-.PHONY : src/touch/lcd/lcd.c.obj
+src/camera/lcd/logo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/lcd/logo.c.obj
+.PHONY : src/camera/lcd/logo.c.obj
 
-src/touch/lcd/lcd.i: src/touch/lcd/lcd.c.i
-.PHONY : src/touch/lcd/lcd.i
+src/camera/lcd/logo.i: src/camera/lcd/logo.c.i
+.PHONY : src/camera/lcd/logo.i
 
 # target to preprocess a source file
-src/touch/lcd/lcd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/lcd/lcd.c.i
-.PHONY : src/touch/lcd/lcd.c.i
+src/camera/lcd/logo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/lcd/logo.c.i
+.PHONY : src/camera/lcd/logo.c.i
 
-src/touch/lcd/lcd.s: src/touch/lcd/lcd.c.s
-.PHONY : src/touch/lcd/lcd.s
+src/camera/lcd/logo.s: src/camera/lcd/logo.c.s
+.PHONY : src/camera/lcd/logo.s
 
 # target to generate assembly for a file
-src/touch/lcd/lcd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/lcd/lcd.c.s
-.PHONY : src/touch/lcd/lcd.c.s
+src/camera/lcd/logo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/lcd/logo.c.s
+.PHONY : src/camera/lcd/logo.c.s
 
-src/touch/lcd/logo.obj: src/touch/lcd/logo.c.obj
-.PHONY : src/touch/lcd/logo.obj
+src/camera/lcd/st7789.obj: src/camera/lcd/st7789.c.obj
+.PHONY : src/camera/lcd/st7789.obj
 
 # target to build an object file
-src/touch/lcd/logo.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/lcd/logo.c.obj
-.PHONY : src/touch/lcd/logo.c.obj
+src/camera/lcd/st7789.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/lcd/st7789.c.obj
+.PHONY : src/camera/lcd/st7789.c.obj
 
-src/touch/lcd/logo.i: src/touch/lcd/logo.c.i
-.PHONY : src/touch/lcd/logo.i
+src/camera/lcd/st7789.i: src/camera/lcd/st7789.c.i
+.PHONY : src/camera/lcd/st7789.i
 
 # target to preprocess a source file
-src/touch/lcd/logo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/lcd/logo.c.i
-.PHONY : src/touch/lcd/logo.c.i
+src/camera/lcd/st7789.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/lcd/st7789.c.i
+.PHONY : src/camera/lcd/st7789.c.i
 
-src/touch/lcd/logo.s: src/touch/lcd/logo.c.s
-.PHONY : src/touch/lcd/logo.s
+src/camera/lcd/st7789.s: src/camera/lcd/st7789.c.s
+.PHONY : src/camera/lcd/st7789.s
 
 # target to generate assembly for a file
-src/touch/lcd/logo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/lcd/logo.c.s
-.PHONY : src/touch/lcd/logo.c.s
+src/camera/lcd/st7789.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/lcd/st7789.c.s
+.PHONY : src/camera/lcd/st7789.c.s
 
-src/touch/lcd/st7789.obj: src/touch/lcd/st7789.c.obj
-.PHONY : src/touch/lcd/st7789.obj
+src/camera/main.obj: src/camera/main.c.obj
+.PHONY : src/camera/main.obj
 
 # target to build an object file
-src/touch/lcd/st7789.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/lcd/st7789.c.obj
-.PHONY : src/touch/lcd/st7789.c.obj
+src/camera/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/main.c.obj
+.PHONY : src/camera/main.c.obj
 
-src/touch/lcd/st7789.i: src/touch/lcd/st7789.c.i
-.PHONY : src/touch/lcd/st7789.i
+src/camera/main.i: src/camera/main.c.i
+.PHONY : src/camera/main.i
 
 # target to preprocess a source file
-src/touch/lcd/st7789.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/lcd/st7789.c.i
-.PHONY : src/touch/lcd/st7789.c.i
+src/camera/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/main.c.i
+.PHONY : src/camera/main.c.i
 
-src/touch/lcd/st7789.s: src/touch/lcd/st7789.c.s
-.PHONY : src/touch/lcd/st7789.s
+src/camera/main.s: src/camera/main.c.s
+.PHONY : src/camera/main.s
 
 # target to generate assembly for a file
-src/touch/lcd/st7789.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/lcd/st7789.c.s
-.PHONY : src/touch/lcd/st7789.c.s
+src/camera/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/main.c.s
+.PHONY : src/camera/main.c.s
 
-src/touch/main.obj: src/touch/main.c.obj
-.PHONY : src/touch/main.obj
+src/camera/ov2640.obj: src/camera/ov2640.c.obj
+.PHONY : src/camera/ov2640.obj
 
 # target to build an object file
-src/touch/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/main.c.obj
-.PHONY : src/touch/main.c.obj
+src/camera/ov2640.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/ov2640.c.obj
+.PHONY : src/camera/ov2640.c.obj
 
-src/touch/main.i: src/touch/main.c.i
-.PHONY : src/touch/main.i
+src/camera/ov2640.i: src/camera/ov2640.c.i
+.PHONY : src/camera/ov2640.i
 
 # target to preprocess a source file
-src/touch/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/main.c.i
-.PHONY : src/touch/main.c.i
+src/camera/ov2640.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/ov2640.c.i
+.PHONY : src/camera/ov2640.c.i
 
-src/touch/main.s: src/touch/main.c.s
-.PHONY : src/touch/main.s
+src/camera/ov2640.s: src/camera/ov2640.c.s
+.PHONY : src/camera/ov2640.s
 
 # target to generate assembly for a file
-src/touch/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/main.c.s
-.PHONY : src/touch/main.c.s
+src/camera/ov2640.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/ov2640.c.s
+.PHONY : src/camera/ov2640.c.s
 
 # Help Target
 help:
@@ -306,27 +306,27 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... camera
 	@echo ... kendryte
 	@echo ... nncase
-	@echo ... touch
-	@echo ... src/touch/ft6236u.obj
-	@echo ... src/touch/ft6236u.i
-	@echo ... src/touch/ft6236u.s
-	@echo ... src/touch/i2c_ctl.obj
-	@echo ... src/touch/i2c_ctl.i
-	@echo ... src/touch/i2c_ctl.s
-	@echo ... src/touch/lcd/lcd.obj
-	@echo ... src/touch/lcd/lcd.i
-	@echo ... src/touch/lcd/lcd.s
-	@echo ... src/touch/lcd/logo.obj
-	@echo ... src/touch/lcd/logo.i
-	@echo ... src/touch/lcd/logo.s
-	@echo ... src/touch/lcd/st7789.obj
-	@echo ... src/touch/lcd/st7789.i
-	@echo ... src/touch/lcd/st7789.s
-	@echo ... src/touch/main.obj
-	@echo ... src/touch/main.i
-	@echo ... src/touch/main.s
+	@echo ... src/camera/dvp_cam.obj
+	@echo ... src/camera/dvp_cam.i
+	@echo ... src/camera/dvp_cam.s
+	@echo ... src/camera/lcd/lcd.obj
+	@echo ... src/camera/lcd/lcd.i
+	@echo ... src/camera/lcd/lcd.s
+	@echo ... src/camera/lcd/logo.obj
+	@echo ... src/camera/lcd/logo.i
+	@echo ... src/camera/lcd/logo.s
+	@echo ... src/camera/lcd/st7789.obj
+	@echo ... src/camera/lcd/st7789.i
+	@echo ... src/camera/lcd/st7789.s
+	@echo ... src/camera/main.obj
+	@echo ... src/camera/main.i
+	@echo ... src/camera/main.s
+	@echo ... src/camera/ov2640.obj
+	@echo ... src/camera/ov2640.i
+	@echo ... src/camera/ov2640.s
 .PHONY : help
 
 
