@@ -178,7 +178,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=camera
+CMAKE_PROJECT_NAME:STATIC=play_pcm
 
 //NoDesc
 CMAKE_RANLIB:STRING=D:/kendryte-toolchain/bin/riscv64-unknown-elf-ranlib.exe
@@ -251,13 +251,13 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 LDFLAGS:STRING= -nostartfiles -static -Wl,--gc-sections -Wl,-static -Wl,--start-group -Wl,--whole-archive -Wl,--no-whole-archive -Wl,--end-group -Wl,-EL -Wl,--no-relax -T E:/K210/riscvLearnning/lds/kendryte.ld
 
 //No help, variable specified on the command line.
-PROJ:UNINITIALIZED=camera
+PROJ:UNINITIALIZED=play_pcm
 
 //NoDesc
 SDK_ROOT:STRING=E:/K210/riscvLearnning
 
 //Source Files
-SOURCE_FILES:STRING=E:/K210/riscvLearnning/src/camera/dvp_cam.c;E:/K210/riscvLearnning/src/camera/lcd/lcd.c;E:/K210/riscvLearnning/src/camera/lcd/logo.c;E:/K210/riscvLearnning/src/camera/lcd/st7789.c;E:/K210/riscvLearnning/src/camera/main.c;E:/K210/riscvLearnning/src/camera/ov2640.c
+SOURCE_FILES:STRING=E:/K210/riscvLearnning/src/play_pcm/main.c
 
 //NoDesc
 TOOLCHAIN:STRING=D:/kendryte-toolchain/bin
@@ -348,6 +348,15 @@ lcd_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 lcd_SOURCE_DIR:STATIC=E:/K210/riscvLearnning
+
+//Value Computed by CMake
+play_pcm_BINARY_DIR:STATIC=E:/K210/riscvLearnning/build
+
+//Value Computed by CMake
+play_pcm_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+play_pcm_SOURCE_DIR:STATIC=E:/K210/riscvLearnning
 
 //Value Computed by CMake
 pwm_BINARY_DIR:STATIC=E:/K210/riscvLearnning/build

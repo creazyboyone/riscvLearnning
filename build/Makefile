@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named camera
+# Target rules for targets named play_pcm
 
 # Build rule for target.
-camera: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 camera
-.PHONY : camera
+play_pcm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 play_pcm
+.PHONY : play_pcm
 
 # fast build rule for target.
-camera/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/build
-.PHONY : camera/fast
+play_pcm/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play_pcm.dir\build.make CMakeFiles/play_pcm.dir/build
+.PHONY : play_pcm/fast
 
 #=============================================================================
 # Target rules for targets named kendryte
@@ -154,149 +154,29 @@ nncase/fast:
 	$(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/build
 .PHONY : nncase/fast
 
-src/camera/dvp_cam.obj: src/camera/dvp_cam.c.obj
-.PHONY : src/camera/dvp_cam.obj
+src/play_pcm/main.obj: src/play_pcm/main.c.obj
+.PHONY : src/play_pcm/main.obj
 
 # target to build an object file
-src/camera/dvp_cam.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/dvp_cam.c.obj
-.PHONY : src/camera/dvp_cam.c.obj
+src/play_pcm/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play_pcm.dir\build.make CMakeFiles/play_pcm.dir/src/play_pcm/main.c.obj
+.PHONY : src/play_pcm/main.c.obj
 
-src/camera/dvp_cam.i: src/camera/dvp_cam.c.i
-.PHONY : src/camera/dvp_cam.i
-
-# target to preprocess a source file
-src/camera/dvp_cam.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/dvp_cam.c.i
-.PHONY : src/camera/dvp_cam.c.i
-
-src/camera/dvp_cam.s: src/camera/dvp_cam.c.s
-.PHONY : src/camera/dvp_cam.s
-
-# target to generate assembly for a file
-src/camera/dvp_cam.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/dvp_cam.c.s
-.PHONY : src/camera/dvp_cam.c.s
-
-src/camera/lcd/lcd.obj: src/camera/lcd/lcd.c.obj
-.PHONY : src/camera/lcd/lcd.obj
-
-# target to build an object file
-src/camera/lcd/lcd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/lcd/lcd.c.obj
-.PHONY : src/camera/lcd/lcd.c.obj
-
-src/camera/lcd/lcd.i: src/camera/lcd/lcd.c.i
-.PHONY : src/camera/lcd/lcd.i
+src/play_pcm/main.i: src/play_pcm/main.c.i
+.PHONY : src/play_pcm/main.i
 
 # target to preprocess a source file
-src/camera/lcd/lcd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/lcd/lcd.c.i
-.PHONY : src/camera/lcd/lcd.c.i
+src/play_pcm/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play_pcm.dir\build.make CMakeFiles/play_pcm.dir/src/play_pcm/main.c.i
+.PHONY : src/play_pcm/main.c.i
 
-src/camera/lcd/lcd.s: src/camera/lcd/lcd.c.s
-.PHONY : src/camera/lcd/lcd.s
-
-# target to generate assembly for a file
-src/camera/lcd/lcd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/lcd/lcd.c.s
-.PHONY : src/camera/lcd/lcd.c.s
-
-src/camera/lcd/logo.obj: src/camera/lcd/logo.c.obj
-.PHONY : src/camera/lcd/logo.obj
-
-# target to build an object file
-src/camera/lcd/logo.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/lcd/logo.c.obj
-.PHONY : src/camera/lcd/logo.c.obj
-
-src/camera/lcd/logo.i: src/camera/lcd/logo.c.i
-.PHONY : src/camera/lcd/logo.i
-
-# target to preprocess a source file
-src/camera/lcd/logo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/lcd/logo.c.i
-.PHONY : src/camera/lcd/logo.c.i
-
-src/camera/lcd/logo.s: src/camera/lcd/logo.c.s
-.PHONY : src/camera/lcd/logo.s
+src/play_pcm/main.s: src/play_pcm/main.c.s
+.PHONY : src/play_pcm/main.s
 
 # target to generate assembly for a file
-src/camera/lcd/logo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/lcd/logo.c.s
-.PHONY : src/camera/lcd/logo.c.s
-
-src/camera/lcd/st7789.obj: src/camera/lcd/st7789.c.obj
-.PHONY : src/camera/lcd/st7789.obj
-
-# target to build an object file
-src/camera/lcd/st7789.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/lcd/st7789.c.obj
-.PHONY : src/camera/lcd/st7789.c.obj
-
-src/camera/lcd/st7789.i: src/camera/lcd/st7789.c.i
-.PHONY : src/camera/lcd/st7789.i
-
-# target to preprocess a source file
-src/camera/lcd/st7789.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/lcd/st7789.c.i
-.PHONY : src/camera/lcd/st7789.c.i
-
-src/camera/lcd/st7789.s: src/camera/lcd/st7789.c.s
-.PHONY : src/camera/lcd/st7789.s
-
-# target to generate assembly for a file
-src/camera/lcd/st7789.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/lcd/st7789.c.s
-.PHONY : src/camera/lcd/st7789.c.s
-
-src/camera/main.obj: src/camera/main.c.obj
-.PHONY : src/camera/main.obj
-
-# target to build an object file
-src/camera/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/main.c.obj
-.PHONY : src/camera/main.c.obj
-
-src/camera/main.i: src/camera/main.c.i
-.PHONY : src/camera/main.i
-
-# target to preprocess a source file
-src/camera/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/main.c.i
-.PHONY : src/camera/main.c.i
-
-src/camera/main.s: src/camera/main.c.s
-.PHONY : src/camera/main.s
-
-# target to generate assembly for a file
-src/camera/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/main.c.s
-.PHONY : src/camera/main.c.s
-
-src/camera/ov2640.obj: src/camera/ov2640.c.obj
-.PHONY : src/camera/ov2640.obj
-
-# target to build an object file
-src/camera/ov2640.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/ov2640.c.obj
-.PHONY : src/camera/ov2640.c.obj
-
-src/camera/ov2640.i: src/camera/ov2640.c.i
-.PHONY : src/camera/ov2640.i
-
-# target to preprocess a source file
-src/camera/ov2640.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/ov2640.c.i
-.PHONY : src/camera/ov2640.c.i
-
-src/camera/ov2640.s: src/camera/ov2640.c.s
-.PHONY : src/camera/ov2640.s
-
-# target to generate assembly for a file
-src/camera/ov2640.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\camera.dir\build.make CMakeFiles/camera.dir/src/camera/ov2640.c.s
-.PHONY : src/camera/ov2640.c.s
+src/play_pcm/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play_pcm.dir\build.make CMakeFiles/play_pcm.dir/src/play_pcm/main.c.s
+.PHONY : src/play_pcm/main.c.s
 
 # Help Target
 help:
@@ -306,27 +186,12 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... camera
 	@echo ... kendryte
 	@echo ... nncase
-	@echo ... src/camera/dvp_cam.obj
-	@echo ... src/camera/dvp_cam.i
-	@echo ... src/camera/dvp_cam.s
-	@echo ... src/camera/lcd/lcd.obj
-	@echo ... src/camera/lcd/lcd.i
-	@echo ... src/camera/lcd/lcd.s
-	@echo ... src/camera/lcd/logo.obj
-	@echo ... src/camera/lcd/logo.i
-	@echo ... src/camera/lcd/logo.s
-	@echo ... src/camera/lcd/st7789.obj
-	@echo ... src/camera/lcd/st7789.i
-	@echo ... src/camera/lcd/st7789.s
-	@echo ... src/camera/main.obj
-	@echo ... src/camera/main.i
-	@echo ... src/camera/main.s
-	@echo ... src/camera/ov2640.obj
-	@echo ... src/camera/ov2640.i
-	@echo ... src/camera/ov2640.s
+	@echo ... play_pcm
+	@echo ... src/play_pcm/main.obj
+	@echo ... src/play_pcm/main.i
+	@echo ... src/play_pcm/main.s
 .PHONY : help
 
 
