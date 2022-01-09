@@ -1,4 +1,4 @@
-E:/K210/riscvLearnning/build/CMakeFiles/keypad.dir
+E:/K210/riscvLearnning/build/CMakeFiles/dmac.dir
 E:/K210/riscvLearnning/build/CMakeFiles/edit_cache.dir
 E:/K210/riscvLearnning/build/CMakeFiles/rebuild_cache.dir
 E:/K210/riscvLearnning/build/lib/CMakeFiles/kendryte.dir

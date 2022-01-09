@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named keypad
+# Target rules for targets named dmac
 
 # Build rule for target.
-keypad: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 keypad
-.PHONY : keypad
+dmac: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dmac
+.PHONY : dmac
 
 # fast build rule for target.
-keypad/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\keypad.dir\build.make CMakeFiles/keypad.dir/build
-.PHONY : keypad/fast
+dmac/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dmac.dir\build.make CMakeFiles/dmac.dir/build
+.PHONY : dmac/fast
 
 #=============================================================================
 # Target rules for targets named kendryte
@@ -154,29 +154,29 @@ nncase/fast:
 	$(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/build
 .PHONY : nncase/fast
 
-src/keypad/main.obj: src/keypad/main.c.obj
-.PHONY : src/keypad/main.obj
+src/dmac/main.obj: src/dmac/main.c.obj
+.PHONY : src/dmac/main.obj
 
 # target to build an object file
-src/keypad/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\keypad.dir\build.make CMakeFiles/keypad.dir/src/keypad/main.c.obj
-.PHONY : src/keypad/main.c.obj
+src/dmac/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dmac.dir\build.make CMakeFiles/dmac.dir/src/dmac/main.c.obj
+.PHONY : src/dmac/main.c.obj
 
-src/keypad/main.i: src/keypad/main.c.i
-.PHONY : src/keypad/main.i
+src/dmac/main.i: src/dmac/main.c.i
+.PHONY : src/dmac/main.i
 
 # target to preprocess a source file
-src/keypad/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\keypad.dir\build.make CMakeFiles/keypad.dir/src/keypad/main.c.i
-.PHONY : src/keypad/main.c.i
+src/dmac/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dmac.dir\build.make CMakeFiles/dmac.dir/src/dmac/main.c.i
+.PHONY : src/dmac/main.c.i
 
-src/keypad/main.s: src/keypad/main.c.s
-.PHONY : src/keypad/main.s
+src/dmac/main.s: src/dmac/main.c.s
+.PHONY : src/dmac/main.s
 
 # target to generate assembly for a file
-src/keypad/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\keypad.dir\build.make CMakeFiles/keypad.dir/src/keypad/main.c.s
-.PHONY : src/keypad/main.c.s
+src/dmac/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dmac.dir\build.make CMakeFiles/dmac.dir/src/dmac/main.c.s
+.PHONY : src/dmac/main.c.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... dmac
 	@echo ... kendryte
-	@echo ... keypad
 	@echo ... nncase
-	@echo ... src/keypad/main.obj
-	@echo ... src/keypad/main.i
-	@echo ... src/keypad/main.s
+	@echo ... src/dmac/main.obj
+	@echo ... src/dmac/main.i
+	@echo ... src/dmac/main.s
 .PHONY : help
 
 

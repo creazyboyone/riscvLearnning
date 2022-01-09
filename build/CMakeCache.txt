@@ -178,7 +178,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=keypad
+CMAKE_PROJECT_NAME:STATIC=dmac
 
 //NoDesc
 CMAKE_RANLIB:STRING=D:/kendryte-toolchain/bin/riscv64-unknown-elf-ranlib.exe
@@ -251,13 +251,13 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 LDFLAGS:STRING= -nostartfiles -static -Wl,--gc-sections -Wl,-static -Wl,--start-group -Wl,--whole-archive -Wl,--no-whole-archive -Wl,--end-group -Wl,-EL -Wl,--no-relax -T E:/K210/riscvLearnning/lds/kendryte.ld
 
 //No help, variable specified on the command line.
-PROJ:UNINITIALIZED=keypad
+PROJ:UNINITIALIZED=dmac
 
 //NoDesc
 SDK_ROOT:STRING=E:/K210/riscvLearnning
 
 //Source Files
-SOURCE_FILES:STRING=E:/K210/riscvLearnning/src/keypad/main.c
+SOURCE_FILES:STRING=E:/K210/riscvLearnning/src/dmac/main.c
 
 //NoDesc
 TOOLCHAIN:STRING=D:/kendryte-toolchain/bin
@@ -273,6 +273,15 @@ button_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 button_SOURCE_DIR:STATIC=E:/K210/riscvLearnning
+
+//Value Computed by CMake
+dmac_BINARY_DIR:STATIC=E:/K210/riscvLearnning/build
+
+//Value Computed by CMake
+dmac_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+dmac_SOURCE_DIR:STATIC=E:/K210/riscvLearnning
 
 //Value Computed by CMake
 dual_core_BINARY_DIR:STATIC=E:/K210/riscvLearnning/build
