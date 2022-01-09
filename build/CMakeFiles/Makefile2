@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = E:\K210\riscvLearnning\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/play_pcm.dir/all
+all: CMakeFiles/mic.dir/all
 all: lib/all
 .PHONY : all
 
@@ -71,7 +71,7 @@ preinstall: lib/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/play_pcm.dir/clean
+clean: CMakeFiles/mic.dir/clean
 clean: lib/clean
 .PHONY : clean
 
@@ -108,31 +108,31 @@ lib/nncase/clean: lib/nncase/CMakeFiles/nncase.dir/clean
 .PHONY : lib/nncase/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/play_pcm.dir
+# Target rules for target CMakeFiles/mic.dir
 
 # All Build rule for target.
-CMakeFiles/play_pcm.dir/all: lib/CMakeFiles/kendryte.dir/all
-CMakeFiles/play_pcm.dir/all: lib/nncase/CMakeFiles/nncase.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\play_pcm.dir\build.make CMakeFiles/play_pcm.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\play_pcm.dir\build.make CMakeFiles/play_pcm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\K210\riscvLearnning\build\CMakeFiles --progress-num=42,43 "Built target play_pcm"
-.PHONY : CMakeFiles/play_pcm.dir/all
+CMakeFiles/mic.dir/all: lib/CMakeFiles/kendryte.dir/all
+CMakeFiles/mic.dir/all: lib/nncase/CMakeFiles/nncase.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mic.dir\build.make CMakeFiles/mic.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mic.dir\build.make CMakeFiles/mic.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\K210\riscvLearnning\build\CMakeFiles --progress-num=34,35 "Built target mic"
+.PHONY : CMakeFiles/mic.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/play_pcm.dir/rule: cmake_check_build_system
+CMakeFiles/mic.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\K210\riscvLearnning\build\CMakeFiles 43
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/play_pcm.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/mic.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\K210\riscvLearnning\build\CMakeFiles 0
-.PHONY : CMakeFiles/play_pcm.dir/rule
+.PHONY : CMakeFiles/mic.dir/rule
 
 # Convenience name for target.
-play_pcm: CMakeFiles/play_pcm.dir/rule
-.PHONY : play_pcm
+mic: CMakeFiles/mic.dir/rule
+.PHONY : mic
 
 # clean rule for target.
-CMakeFiles/play_pcm.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\play_pcm.dir\build.make CMakeFiles/play_pcm.dir/clean
-.PHONY : CMakeFiles/play_pcm.dir/clean
+CMakeFiles/mic.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mic.dir\build.make CMakeFiles/mic.dir/clean
+.PHONY : CMakeFiles/mic.dir/clean
 
 #=============================================================================
 # Target rules for target lib/CMakeFiles/kendryte.dir
@@ -167,7 +167,7 @@ lib/CMakeFiles/kendryte.dir/clean:
 lib/nncase/CMakeFiles/nncase.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\K210\riscvLearnning\build\CMakeFiles --progress-num=34,35,36,37,38,39,40,41 "Built target nncase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\K210\riscvLearnning\build\CMakeFiles --progress-num=36,37,38,39,40,41,42,43 "Built target nncase"
 .PHONY : lib/nncase/CMakeFiles/nncase.dir/all
 
 # Build rule for subdir invocation for target.

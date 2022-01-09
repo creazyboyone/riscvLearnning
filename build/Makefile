@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named play_pcm
+# Target rules for targets named mic
 
 # Build rule for target.
-play_pcm: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 play_pcm
-.PHONY : play_pcm
+mic: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 mic
+.PHONY : mic
 
 # fast build rule for target.
-play_pcm/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\play_pcm.dir\build.make CMakeFiles/play_pcm.dir/build
-.PHONY : play_pcm/fast
+mic/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mic.dir\build.make CMakeFiles/mic.dir/build
+.PHONY : mic/fast
 
 #=============================================================================
 # Target rules for targets named kendryte
@@ -154,29 +154,29 @@ nncase/fast:
 	$(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/build
 .PHONY : nncase/fast
 
-src/play_pcm/main.obj: src/play_pcm/main.c.obj
-.PHONY : src/play_pcm/main.obj
+src/mic/main.obj: src/mic/main.c.obj
+.PHONY : src/mic/main.obj
 
 # target to build an object file
-src/play_pcm/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\play_pcm.dir\build.make CMakeFiles/play_pcm.dir/src/play_pcm/main.c.obj
-.PHONY : src/play_pcm/main.c.obj
+src/mic/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mic.dir\build.make CMakeFiles/mic.dir/src/mic/main.c.obj
+.PHONY : src/mic/main.c.obj
 
-src/play_pcm/main.i: src/play_pcm/main.c.i
-.PHONY : src/play_pcm/main.i
+src/mic/main.i: src/mic/main.c.i
+.PHONY : src/mic/main.i
 
 # target to preprocess a source file
-src/play_pcm/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\play_pcm.dir\build.make CMakeFiles/play_pcm.dir/src/play_pcm/main.c.i
-.PHONY : src/play_pcm/main.c.i
+src/mic/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mic.dir\build.make CMakeFiles/mic.dir/src/mic/main.c.i
+.PHONY : src/mic/main.c.i
 
-src/play_pcm/main.s: src/play_pcm/main.c.s
-.PHONY : src/play_pcm/main.s
+src/mic/main.s: src/mic/main.c.s
+.PHONY : src/mic/main.s
 
 # target to generate assembly for a file
-src/play_pcm/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\play_pcm.dir\build.make CMakeFiles/play_pcm.dir/src/play_pcm/main.c.s
-.PHONY : src/play_pcm/main.c.s
+src/mic/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mic.dir\build.make CMakeFiles/mic.dir/src/mic/main.c.s
+.PHONY : src/mic/main.c.s
 
 # Help Target
 help:
@@ -187,11 +187,11 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... kendryte
+	@echo ... mic
 	@echo ... nncase
-	@echo ... play_pcm
-	@echo ... src/play_pcm/main.obj
-	@echo ... src/play_pcm/main.i
-	@echo ... src/play_pcm/main.s
+	@echo ... src/mic/main.obj
+	@echo ... src/mic/main.i
+	@echo ... src/mic/main.s
 .PHONY : help
 
 
