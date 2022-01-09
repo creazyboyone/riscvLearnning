@@ -178,7 +178,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=lcd
+CMAKE_PROJECT_NAME:STATIC=touch
 
 //NoDesc
 CMAKE_RANLIB:STRING=D:/kendryte-toolchain/bin/riscv64-unknown-elf-ranlib.exe
@@ -251,13 +251,13 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 LDFLAGS:STRING= -nostartfiles -static -Wl,--gc-sections -Wl,-static -Wl,--start-group -Wl,--whole-archive -Wl,--no-whole-archive -Wl,--end-group -Wl,-EL -Wl,--no-relax -T E:/K210/riscvLearnning/lds/kendryte.ld
 
 //No help, variable specified on the command line.
-PROJ:UNINITIALIZED=lcd
+PROJ:UNINITIALIZED=touch
 
 //NoDesc
 SDK_ROOT:STRING=E:/K210/riscvLearnning
 
 //Source Files
-SOURCE_FILES:STRING=E:/K210/riscvLearnning/src/lcd/lcd.c;E:/K210/riscvLearnning/src/lcd/logo.c;E:/K210/riscvLearnning/src/lcd/main.c;E:/K210/riscvLearnning/src/lcd/st7789.c
+SOURCE_FILES:STRING=E:/K210/riscvLearnning/src/touch/ft6236u.c;E:/K210/riscvLearnning/src/touch/i2c_ctl.c;E:/K210/riscvLearnning/src/touch/lcd/lcd.c;E:/K210/riscvLearnning/src/touch/lcd/logo.c;E:/K210/riscvLearnning/src/touch/lcd/st7789.c;E:/K210/riscvLearnning/src/touch/main.c
 
 //NoDesc
 TOOLCHAIN:STRING=D:/kendryte-toolchain/bin
@@ -357,6 +357,15 @@ timer_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 timer_SOURCE_DIR:STATIC=E:/K210/riscvLearnning
+
+//Value Computed by CMake
+touch_BINARY_DIR:STATIC=E:/K210/riscvLearnning/build
+
+//Value Computed by CMake
+touch_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+touch_SOURCE_DIR:STATIC=E:/K210/riscvLearnning
 
 //Value Computed by CMake
 uart_BINARY_DIR:STATIC=E:/K210/riscvLearnning/build

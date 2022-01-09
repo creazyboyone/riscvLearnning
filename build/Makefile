@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lcd
+# Target rules for targets named touch
 
 # Build rule for target.
-lcd: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lcd
-.PHONY : lcd
+touch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 touch
+.PHONY : touch
 
 # fast build rule for target.
-lcd/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/build
-.PHONY : lcd/fast
+touch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/build
+.PHONY : touch/fast
 
 #=============================================================================
 # Target rules for targets named kendryte
@@ -154,101 +154,149 @@ nncase/fast:
 	$(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/build
 .PHONY : nncase/fast
 
-src/lcd/lcd.obj: src/lcd/lcd.c.obj
-.PHONY : src/lcd/lcd.obj
+src/touch/ft6236u.obj: src/touch/ft6236u.c.obj
+.PHONY : src/touch/ft6236u.obj
 
 # target to build an object file
-src/lcd/lcd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/lcd.c.obj
-.PHONY : src/lcd/lcd.c.obj
+src/touch/ft6236u.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/ft6236u.c.obj
+.PHONY : src/touch/ft6236u.c.obj
 
-src/lcd/lcd.i: src/lcd/lcd.c.i
-.PHONY : src/lcd/lcd.i
+src/touch/ft6236u.i: src/touch/ft6236u.c.i
+.PHONY : src/touch/ft6236u.i
 
 # target to preprocess a source file
-src/lcd/lcd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/lcd.c.i
-.PHONY : src/lcd/lcd.c.i
+src/touch/ft6236u.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/ft6236u.c.i
+.PHONY : src/touch/ft6236u.c.i
 
-src/lcd/lcd.s: src/lcd/lcd.c.s
-.PHONY : src/lcd/lcd.s
+src/touch/ft6236u.s: src/touch/ft6236u.c.s
+.PHONY : src/touch/ft6236u.s
 
 # target to generate assembly for a file
-src/lcd/lcd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/lcd.c.s
-.PHONY : src/lcd/lcd.c.s
+src/touch/ft6236u.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/ft6236u.c.s
+.PHONY : src/touch/ft6236u.c.s
 
-src/lcd/logo.obj: src/lcd/logo.c.obj
-.PHONY : src/lcd/logo.obj
+src/touch/i2c_ctl.obj: src/touch/i2c_ctl.c.obj
+.PHONY : src/touch/i2c_ctl.obj
 
 # target to build an object file
-src/lcd/logo.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/logo.c.obj
-.PHONY : src/lcd/logo.c.obj
+src/touch/i2c_ctl.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/i2c_ctl.c.obj
+.PHONY : src/touch/i2c_ctl.c.obj
 
-src/lcd/logo.i: src/lcd/logo.c.i
-.PHONY : src/lcd/logo.i
+src/touch/i2c_ctl.i: src/touch/i2c_ctl.c.i
+.PHONY : src/touch/i2c_ctl.i
 
 # target to preprocess a source file
-src/lcd/logo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/logo.c.i
-.PHONY : src/lcd/logo.c.i
+src/touch/i2c_ctl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/i2c_ctl.c.i
+.PHONY : src/touch/i2c_ctl.c.i
 
-src/lcd/logo.s: src/lcd/logo.c.s
-.PHONY : src/lcd/logo.s
+src/touch/i2c_ctl.s: src/touch/i2c_ctl.c.s
+.PHONY : src/touch/i2c_ctl.s
 
 # target to generate assembly for a file
-src/lcd/logo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/logo.c.s
-.PHONY : src/lcd/logo.c.s
+src/touch/i2c_ctl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/i2c_ctl.c.s
+.PHONY : src/touch/i2c_ctl.c.s
 
-src/lcd/main.obj: src/lcd/main.c.obj
-.PHONY : src/lcd/main.obj
+src/touch/lcd/lcd.obj: src/touch/lcd/lcd.c.obj
+.PHONY : src/touch/lcd/lcd.obj
 
 # target to build an object file
-src/lcd/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/main.c.obj
-.PHONY : src/lcd/main.c.obj
+src/touch/lcd/lcd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/lcd/lcd.c.obj
+.PHONY : src/touch/lcd/lcd.c.obj
 
-src/lcd/main.i: src/lcd/main.c.i
-.PHONY : src/lcd/main.i
+src/touch/lcd/lcd.i: src/touch/lcd/lcd.c.i
+.PHONY : src/touch/lcd/lcd.i
 
 # target to preprocess a source file
-src/lcd/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/main.c.i
-.PHONY : src/lcd/main.c.i
+src/touch/lcd/lcd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/lcd/lcd.c.i
+.PHONY : src/touch/lcd/lcd.c.i
 
-src/lcd/main.s: src/lcd/main.c.s
-.PHONY : src/lcd/main.s
+src/touch/lcd/lcd.s: src/touch/lcd/lcd.c.s
+.PHONY : src/touch/lcd/lcd.s
 
 # target to generate assembly for a file
-src/lcd/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/main.c.s
-.PHONY : src/lcd/main.c.s
+src/touch/lcd/lcd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/lcd/lcd.c.s
+.PHONY : src/touch/lcd/lcd.c.s
 
-src/lcd/st7789.obj: src/lcd/st7789.c.obj
-.PHONY : src/lcd/st7789.obj
+src/touch/lcd/logo.obj: src/touch/lcd/logo.c.obj
+.PHONY : src/touch/lcd/logo.obj
 
 # target to build an object file
-src/lcd/st7789.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/st7789.c.obj
-.PHONY : src/lcd/st7789.c.obj
+src/touch/lcd/logo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/lcd/logo.c.obj
+.PHONY : src/touch/lcd/logo.c.obj
 
-src/lcd/st7789.i: src/lcd/st7789.c.i
-.PHONY : src/lcd/st7789.i
+src/touch/lcd/logo.i: src/touch/lcd/logo.c.i
+.PHONY : src/touch/lcd/logo.i
 
 # target to preprocess a source file
-src/lcd/st7789.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/st7789.c.i
-.PHONY : src/lcd/st7789.c.i
+src/touch/lcd/logo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/lcd/logo.c.i
+.PHONY : src/touch/lcd/logo.c.i
 
-src/lcd/st7789.s: src/lcd/st7789.c.s
-.PHONY : src/lcd/st7789.s
+src/touch/lcd/logo.s: src/touch/lcd/logo.c.s
+.PHONY : src/touch/lcd/logo.s
 
 # target to generate assembly for a file
-src/lcd/st7789.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/src/lcd/st7789.c.s
-.PHONY : src/lcd/st7789.c.s
+src/touch/lcd/logo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/lcd/logo.c.s
+.PHONY : src/touch/lcd/logo.c.s
+
+src/touch/lcd/st7789.obj: src/touch/lcd/st7789.c.obj
+.PHONY : src/touch/lcd/st7789.obj
+
+# target to build an object file
+src/touch/lcd/st7789.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/lcd/st7789.c.obj
+.PHONY : src/touch/lcd/st7789.c.obj
+
+src/touch/lcd/st7789.i: src/touch/lcd/st7789.c.i
+.PHONY : src/touch/lcd/st7789.i
+
+# target to preprocess a source file
+src/touch/lcd/st7789.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/lcd/st7789.c.i
+.PHONY : src/touch/lcd/st7789.c.i
+
+src/touch/lcd/st7789.s: src/touch/lcd/st7789.c.s
+.PHONY : src/touch/lcd/st7789.s
+
+# target to generate assembly for a file
+src/touch/lcd/st7789.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/lcd/st7789.c.s
+.PHONY : src/touch/lcd/st7789.c.s
+
+src/touch/main.obj: src/touch/main.c.obj
+.PHONY : src/touch/main.obj
+
+# target to build an object file
+src/touch/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/main.c.obj
+.PHONY : src/touch/main.c.obj
+
+src/touch/main.i: src/touch/main.c.i
+.PHONY : src/touch/main.i
+
+# target to preprocess a source file
+src/touch/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/main.c.i
+.PHONY : src/touch/main.c.i
+
+src/touch/main.s: src/touch/main.c.s
+.PHONY : src/touch/main.s
+
+# target to generate assembly for a file
+src/touch/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/src/touch/main.c.s
+.PHONY : src/touch/main.c.s
 
 # Help Target
 help:
@@ -259,20 +307,26 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... kendryte
-	@echo ... lcd
 	@echo ... nncase
-	@echo ... src/lcd/lcd.obj
-	@echo ... src/lcd/lcd.i
-	@echo ... src/lcd/lcd.s
-	@echo ... src/lcd/logo.obj
-	@echo ... src/lcd/logo.i
-	@echo ... src/lcd/logo.s
-	@echo ... src/lcd/main.obj
-	@echo ... src/lcd/main.i
-	@echo ... src/lcd/main.s
-	@echo ... src/lcd/st7789.obj
-	@echo ... src/lcd/st7789.i
-	@echo ... src/lcd/st7789.s
+	@echo ... touch
+	@echo ... src/touch/ft6236u.obj
+	@echo ... src/touch/ft6236u.i
+	@echo ... src/touch/ft6236u.s
+	@echo ... src/touch/i2c_ctl.obj
+	@echo ... src/touch/i2c_ctl.i
+	@echo ... src/touch/i2c_ctl.s
+	@echo ... src/touch/lcd/lcd.obj
+	@echo ... src/touch/lcd/lcd.i
+	@echo ... src/touch/lcd/lcd.s
+	@echo ... src/touch/lcd/logo.obj
+	@echo ... src/touch/lcd/logo.i
+	@echo ... src/touch/lcd/logo.s
+	@echo ... src/touch/lcd/st7789.obj
+	@echo ... src/touch/lcd/st7789.i
+	@echo ... src/touch/lcd/st7789.s
+	@echo ... src/touch/main.obj
+	@echo ... src/touch/main.i
+	@echo ... src/touch/main.s
 .PHONY : help
 
 

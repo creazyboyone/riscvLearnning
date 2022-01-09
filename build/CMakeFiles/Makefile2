@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = E:\K210\riscvLearnning\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/lcd.dir/all
+all: CMakeFiles/touch.dir/all
 all: lib/all
 .PHONY : all
 
@@ -71,7 +71,7 @@ preinstall: lib/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/lcd.dir/clean
+clean: CMakeFiles/touch.dir/clean
 clean: lib/clean
 .PHONY : clean
 
@@ -108,31 +108,31 @@ lib/nncase/clean: lib/nncase/CMakeFiles/nncase.dir/clean
 .PHONY : lib/nncase/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/lcd.dir
+# Target rules for target CMakeFiles/touch.dir
 
 # All Build rule for target.
-CMakeFiles/lcd.dir/all: lib/CMakeFiles/kendryte.dir/all
-CMakeFiles/lcd.dir/all: lib/nncase/CMakeFiles/nncase.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\K210\riscvLearnning\build\CMakeFiles --progress-num=34,35,36,37,38 "Built target lcd"
-.PHONY : CMakeFiles/lcd.dir/all
+CMakeFiles/touch.dir/all: lib/CMakeFiles/kendryte.dir/all
+CMakeFiles/touch.dir/all: lib/nncase/CMakeFiles/nncase.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\K210\riscvLearnning\build\CMakeFiles --progress-num=42,43,44,45,46,47,48 "Built target touch"
+.PHONY : CMakeFiles/touch.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/lcd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\K210\riscvLearnning\build\CMakeFiles 46
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/lcd.dir/all
+CMakeFiles/touch.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\K210\riscvLearnning\build\CMakeFiles 48
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/touch.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\K210\riscvLearnning\build\CMakeFiles 0
-.PHONY : CMakeFiles/lcd.dir/rule
+.PHONY : CMakeFiles/touch.dir/rule
 
 # Convenience name for target.
-lcd: CMakeFiles/lcd.dir/rule
-.PHONY : lcd
+touch: CMakeFiles/touch.dir/rule
+.PHONY : touch
 
 # clean rule for target.
-CMakeFiles/lcd.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lcd.dir\build.make CMakeFiles/lcd.dir/clean
-.PHONY : CMakeFiles/lcd.dir/clean
+CMakeFiles/touch.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\touch.dir\build.make CMakeFiles/touch.dir/clean
+.PHONY : CMakeFiles/touch.dir/clean
 
 #=============================================================================
 # Target rules for target lib/CMakeFiles/kendryte.dir
@@ -167,7 +167,7 @@ lib/CMakeFiles/kendryte.dir/clean:
 lib/nncase/CMakeFiles/nncase.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib\nncase\CMakeFiles\nncase.dir\build.make lib/nncase/CMakeFiles/nncase.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\K210\riscvLearnning\build\CMakeFiles --progress-num=39,40,41,42,43,44,45,46 "Built target nncase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\K210\riscvLearnning\build\CMakeFiles --progress-num=34,35,36,37,38,39,40,41 "Built target nncase"
 .PHONY : lib/nncase/CMakeFiles/nncase.dir/all
 
 # Build rule for subdir invocation for target.
